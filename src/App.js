@@ -5,7 +5,8 @@ import { createStructuredSelector } from "reselect";
 
 import "./App.css";
 
-import HomePage from "./pages/homepage/homepage.component";
+import HomePage from "./pages/home/homepage.component";
+import HeroesPage from "./pages/heroes/heroespage.component";
 import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component";
 
 import Header from "./components/header/header.component";
@@ -31,6 +32,7 @@ class App extends React.Component {
         <Header />
         <Switch>
           <Route exact path="/" component={HomePage} />
+          <Route path="/heroes" component={HeroesPage} />
           <Route
             exact
             path="/signin"
