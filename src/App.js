@@ -7,6 +7,7 @@ import "./App.css";
 
 import HomePage from "./pages/home/homepage.component";
 import HeroesPage from "./pages/heroes/heroespage.component";
+import MapCollectionPage from "./pages/maps/map-collection.component";
 import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component";
 
 import Header from "./components/header/header.component";
@@ -33,6 +34,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/heroes" component={HeroesPage} />
+          <Route path="/maps" component={MapCollectionPage} />
           <Route
             exact
             path="/signin"

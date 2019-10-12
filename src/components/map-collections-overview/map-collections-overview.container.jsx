@@ -3,17 +3,17 @@ import { createStructuredSelector } from 'reselect';
 import { compose } from 'redux';
 
 
-import {selectIsCollectionFetching } from '../../redux//shop/shop.selectors';
+import {selectIsCollectionFetching } from '../../redux/maps-directory/maps-directory.selectors';
 import WithSpinner from '../../components/with-spinner/with-spinner.component';
-import CollectionsOverview from './collections-overview.component';
+import MapCollectionsOverview from './map-collections-overview.component';
 
 const mapStateToProps = createStructuredSelector({
     isLoading: selectIsCollectionFetching
 });
 
-const CollectionsOverviewContainer = compose(
+const MapCollectionsOverviewContainer = compose(
     connect(mapStateToProps),
     WithSpinner
-)(CollectionsOverview);
+)(MapCollectionsOverview);
 
-export default CollectionsOverviewContainer;
+export default MapCollectionsOverviewContainer;
