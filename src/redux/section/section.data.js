@@ -1,17 +1,17 @@
-const SHOP_DATA = {
+const SHOP_DATA : {
   heroes: {
     id: 1,
     title: "Heroes",
     routeName: "heroes",
-    items: [
+    hero: [
       {
         id: 1,
         name: "Ana",
         imageUrl: "../../assets/hero-portraits/ana.png",
         role: "Support",
         difficulty: 3,
-        counters: [],
-        counteredBy: [],
+        counters: ["Baptiste", "Bastion", "Lucio", "Moira", "Pharah", "Roadhog", "Torbjorn", "Wrecking Ball", "Zenyatta"],
+        counteredBy: ["Doomfist", "D.Va", "Genji", "Tracer", "Winston", "Widowmaker"],
         abilities: [
           {
             id: 1,
@@ -50,8 +50,8 @@ const SHOP_DATA = {
         imageUrl: "../../assets/hero-portraits/ashe.png",
         role: "Damage",
         difficulty: 2,
-        counters: [],
-        counteredBy: [],
+        counters: ["Baptiste", "Bastion", "Mercy", "Pharah", "Reaper", "Torbjorn"],
+        counteredBy: ["Doomfist", "D.Va", "Genji", "Hanzo", "Reinhardt", "Widowmaker", "Wrecking Ball"],
         abilities: [],
         story: `Ashe is the ambitious and calculating leader of the Deadlock Gang and a respected figure in the criminal underworld. Born into a wealthy family, Ashe grew up surrounded by privilege. Her parents were highly sought-after business consultants and coaches for powerful CEOs around the world. Though her parents paid little attention to her (mostly leaving her in the care of the family’s omnic butler, Bob), they ensured that Ashe had every opportunity to succeed. But a chance meeting with a local ruffian, named Jesse McCree, and an impromptu string of crimes committed together opened her eyes to her true calling. The satisfaction of outwitting her targets and the thrill of getting away with it set her on the outlaw path. Along with the other three founders of the Deadlock Gang, Ashe started to make a name for herself with bigger and more extravagant heists. The Deadlock Gang’s rapid rise to prominence put them at odds with the other criminal organizations in the American Southwest; the encounters often became violent. After years of skirmishes and bloodshed, Ashe called the heads of the major groups together. Ashe saw the potential to grow the influence of all. She used what she’d learned from her parents’ business to bring order to these groups. Her proposal was that the gangs could work together (or at least, not work against each other). Her principles: keep your word, don’t work with the law, respect each other’s territory, and always punish betrayal. No longer having to focus her energies on squabbles with the other gangs, Ashe is now writing her name across the American Southwest with a string of audacious heists and operations that has put her at top of the authorities’ most-wanted lists and cemented her legacy as an outlaw legend.`
       },
@@ -61,8 +61,8 @@ const SHOP_DATA = {
         imageUrl: "../../assets/hero-portraits/ana.png",
         role: "Support",
         difficulty: 3,
-        counters: [],
-        counteredBy: [],
+        counters: ["D.Va", "Junkrat", "Moira", "Zarya"],
+        counteredBy: ["Ana", "Ashe", "Bastion", ""],
         abilities: [],
         story: `An elite combat medic and ex-Talon operative, Baptiste now uses his skills to help those whose lives have been impacted by war. Jean-Baptiste Augustin was one of the 30 million children orphaned by the Omnic Crisis. With limited opportunities and resources, he enlisted in the military. The Caribbean Coalition, a pan-island force formed in response to the Crisis, became his new home. Guided by his innate desire to help people, Baptiste chose the path of a combat medic and served in an elite branch of the Caribbean Coalition’s special ops. After his service was complete, Baptiste struggled to find a demand for his unique skills. He turned to one of the few opportunities open to him: joining the Talon mercenary group, one of the many organizations that were poised to profit off the chaos in the war's aftermath. For the first time ever, Baptiste had a taste of the good life. Talon's missions were easy and paid well, and he put aside some of his earnings to set up a clinic in his hometown. But slowly, his unit's orders escalated in brutality, expanding into assassinations and operations with civilian casualties. Confronted by his team's actions, Baptiste realized he was perpetuating a cycle of violence like the one that had destroyed his own community. He abandoned Talon, disgusted with what he had done and determined to forge a new path for himself. But Talon would not let him go. Baptiste knew too much, and they sent operatives after him to silence him. Agent after agent came for him, including Baptiste's former comrades. To stay under the radar, Baptiste drifted from place to place, aiding in humanitarian efforts around the globe. The few Talon members who managed to track him down were never seen again. Now, Baptiste works toward a better world, healing where he can and fighting when he must. He knows that he cannot undo his past—but that making a difference now is what matters.`
       },
@@ -72,8 +72,8 @@ const SHOP_DATA = {
         imageUrl: "../../assets/hero-portraits/baptiste.png",
         role: "Damage",
         difficulty: 1,
-        counters: [],
-        counteredBy: [],
+        counters: ["Reinhardt", "Winston", "Mercy"],
+        counteredBy: ["Genji", "Widowmaker", "Hanzo"],
         abilities: [],
         story: `Once a frontline combatant in the devastating Omnic Crisis, this curious Bastion unit now explores the world, fascinated by nature but wary of a fearful humanity. Originally created for peacekeeping purposes, Bastion robot units possessed the unique ability to rapidly reconfigure themselves into an assault-cannon mode. But during the Omnic Crisis, they were turned against their human makers, forming the bulk of the omnics' rebel army. Following the resolution of the crisis, nearly all of them were destroyed or disassembled. To this day, Bastion units still symbolize the horrors of the conflict. One unique Bastion unit, severely damaged in the final battles of the war, was left forgotten for over a decade. It lay dormant, exposed to the elements and rusting while nature slowly reclaimed it. Overgrown with vines and roots and nested upon by small animals, the robot sat inert, seemingly unaware of the passing of time. That was until one fateful day, when it unexpectedly reactivated. With its combat programming all but lost, it instead displayed an intense curiosity about the natural world and its inhabitants. This inquisitive Bastion unit set out to explore its surroundings and discover its purpose on a war-ravaged planet. Though "Bastion" appears to be gentle—even harmless, at times—its core combat programming takes over when the unit senses danger, utilizing its entire arsenal to eliminate anything it perceives as a threat. This has led to instances of conflict with the few humans it has encountered, and has driven it to avoid populated areas in favor of the wild, uncharted regions of the world.`
       },
@@ -375,8 +375,8 @@ const SHOP_DATA = {
         story: `Zenyatta is an omnic monk who wanders the world in search of spiritual enlightenment. It is said that those who cross his path are never the same again. Years ago, following the Omnic Crisis, a group of outcast omnic robots experienced what they described as a spiritual awakening. They abandoned their preprogrammed lives to establish a communal monastery deep in the Himalayas. After many years of meditation on the nature of existence, they came to the belief that they were more than artificial intelligences and that, like humans, they possessed the essence of a soul. Recognizing the spiritual equality they held with humans, the monks, led by the enigmatic robot known as Tekhartha Mondatta, sought to heal the wounds caused by the Omnic Crisis a generation earlier and bring humans and robots back into societal harmony. Their message was embraced by millions around the world, and they became global celebrities. But one monk, Zenyatta, disagreed with this new direction. He believed that the way to repair the problems between humans and omnics was not through dogmatic teaching but through interpersonal connection and engagement. Ultimately, Zenyatta followed his own path. He chose to leave the monastery and wander the world, helping those he meets to overcome their personal struggles and find inner peace. But, when necessary, he will fight to protect the innocent, be they omnic or human.`
       }
     ]
-  },
-  maps: {
+  }
+   maps: {
     id: 2,
     title: "Maps",
     routeName: "maps",
@@ -662,7 +662,7 @@ const SHOP_DATA = {
 
     ]
   },
-  roles: {
+  roles {
     id: 3,
     title: "Roles",
     routeName: "roles",
@@ -687,5 +687,7 @@ const SHOP_DATA = {
       }
     ]
   }
+}
 
 export default SHOP_DATA;
+ 
