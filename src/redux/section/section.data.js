@@ -86,7 +86,36 @@ const SECTION_DATA = {
           "Widowmaker",
           "Wrecking Ball"
         ],
-        abilities: [],
+        abilities: [
+          {
+            id: 1,
+            ability: "The Viper",
+            description: `Ashe's semi-automatic rifle fires quick shots, or she can use her aim-down sights for a more damaging, precise shot.`,
+            imageUrl: "",
+            videoUrl: ""
+          },
+          {
+            id: 2,
+            ability: "Dynamite",
+            description: `Ashe throws an explosive that detonates after a short delay or immediately when shot. The explosion from Dynamite also lights enemies on fire, dealing damage over time.`,
+            imageUrl: "",
+            videoUrl: ""
+          },
+          {
+            id: 3,
+            ability: "Coach Gun",
+            description: `Ashe blasts enemies in front of her, knocking them away and propelling herself backward for added mobility.`,
+            imageUrl: "",
+            videoUrl: ""
+          },
+          {
+            id: 4,
+            ability: "B.O.B.",
+            description: `Ashe summons her trusted omnic sidekick, Bob, who charges forward and knocks enemies into the air, then lays down suppressing fire with his arm cannons.`,
+            imageUrl: "",
+            videoUrl: ""
+          }
+        ],
         story: `Ashe is the ambitious and calculating leader of the Deadlock Gang and a respected figure in the criminal underworld. Born into a wealthy family, Ashe grew up surrounded by privilege. Her parents were highly sought-after business consultants and coaches for powerful CEOs around the world. Though her parents paid little attention to her (mostly leaving her in the care of the family’s omnic butler, Bob), they ensured that Ashe had every opportunity to succeed. But a chance meeting with a local ruffian, named Jesse McCree, and an impromptu string of crimes committed together opened her eyes to her true calling. The satisfaction of outwitting her targets and the thrill of getting away with it set her on the outlaw path. Along with the other three founders of the Deadlock Gang, Ashe started to make a name for herself with bigger and more extravagant heists. The Deadlock Gang’s rapid rise to prominence put them at odds with the other criminal organizations in the American Southwest; the encounters often became violent. After years of skirmishes and bloodshed, Ashe called the heads of the major groups together. Ashe saw the potential to grow the influence of all. She used what she’d learned from her parents’ business to bring order to these groups. Her proposal was that the gangs could work together (or at least, not work against each other). Her principles: keep your word, don’t work with the law, respect each other’s territory, and always punish betrayal. No longer having to focus her energies on squabbles with the other gangs, Ashe is now writing her name across the American Southwest with a string of audacious heists and operations that has put her at top of the authorities’ most-wanted lists and cemented her legacy as an outlaw legend.`
       },
       {
@@ -112,7 +141,43 @@ const SECTION_DATA = {
           "Winston",
           "Wrecking Ball"
         ],
-        abilities: [],
+        abilities: [
+          {
+            id: 1,
+            ability: "Biotic Launcher",
+            description: `Baptiste’s three-round-burst Biotic Launcher rewards accuracy and recoil control with significant damage output. It also doubles as a healing device, lobbing projectiles that heal allies near the point of impact.`,
+            imageUrl: "",
+            videoUrl: ""
+          },
+          {
+            id: 2,
+            ability: "Regenerative Burst",
+            description: `Baptiste activates an intense regenerative burst that heals himself and nearby allies over time.`,
+            imageUrl: "",
+            videoUrl: ""
+          },
+          {
+            id: 3,
+            ability: "Immortality Field",
+            description: `Baptiste uses a device to create a field that prevents allies from dying. The generator can be destroyed.`,
+            imageUrl: "",
+            videoUrl: ""
+          },
+          {
+            id: 4,
+            ability: "Amplification Matrix",
+            description: `Baptiste creates a matrix that doubles the damage and healing effects of friendly projectiles that pass through it.`,
+            imageUrl: "",
+            videoUrl: ""
+          },
+          {
+            id: 5,
+            ability: "Exo Boots",
+            description: `By first crouching, Baptiste can jump higher.`,
+            imageUrl: "",
+            videoUrl: ""
+          }
+        ],
         story: `An elite combat medic and ex-Talon operative, Baptiste now uses his skills to help those whose lives have been impacted by war. Jean-Baptiste Augustin was one of the 30 million children orphaned by the Omnic Crisis. With limited opportunities and resources, he enlisted in the military. The Caribbean Coalition, a pan-island force formed in response to the Crisis, became his new home. Guided by his innate desire to help people, Baptiste chose the path of a combat medic and served in an elite branch of the Caribbean Coalition’s special ops. After his service was complete, Baptiste struggled to find a demand for his unique skills. He turned to one of the few opportunities open to him: joining the Talon mercenary group, one of the many organizations that were poised to profit off the chaos in the war's aftermath. For the first time ever, Baptiste had a taste of the good life. Talon's missions were easy and paid well, and he put aside some of his earnings to set up a clinic in his hometown. But slowly, his unit's orders escalated in brutality, expanding into assassinations and operations with civilian casualties. Confronted by his team's actions, Baptiste realized he was perpetuating a cycle of violence like the one that had destroyed his own community. He abandoned Talon, disgusted with what he had done and determined to forge a new path for himself. But Talon would not let him go. Baptiste knew too much, and they sent operatives after him to silence him. Agent after agent came for him, including Baptiste's former comrades. To stay under the radar, Baptiste drifted from place to place, aiding in humanitarian efforts around the globe. The few Talon members who managed to track him down were never seen again. Now, Baptiste works toward a better world, healing where he can and fighting when he must. He knows that he cannot undo his past—but that making a difference now is what matters.`
       },
       {
@@ -143,7 +208,43 @@ const SECTION_DATA = {
           "Widowmaker",
           "Zenyatta"
         ],
-        abilities: [],
+        abilities: [
+          {
+            id: 1,
+            ability: "Configuration: Recon",
+            description: `In Recon mode, Bastion is fully mobile, outfitted with a submachine gun that fires steady bursts of bullets at medium range.`,
+            imageUrl: "",
+            videoUrl: ""
+          },
+          {
+            id: 2,
+            ability: "Configuratin: Sentry",
+            description: `In Sentry mode, Bastion is a stationary powerhouse equipped with a gatling gun capable of unleashing a hail of bullets. The gun's aim can be "walked" across multiple targets, dealing devastating damage at short to medium range.`,
+            imageUrl: "",
+            videoUrl: ""
+          },
+          {
+            id: 3,
+            ability: "Reconfigure",
+            description: `Bastion transforms between its two primary combat modes to adapt to battlefield conditions.`,
+            imageUrl: "",
+            videoUrl: ""
+          },
+          {
+            id: 4,
+            ability: "Self-Repair",
+            description: `Bastion restores its health; it cannot fire weapons while the repair process is in effect.`,
+            imageUrl: "",
+            videoUrl: ""
+          },
+          {
+            id: 5,
+            ability: "Configuration: Tank",
+            description: `In Tank mode, Bastion extends wheeled treads and a powerful long-range cannon. The cannon’s explosive shells demolish targets in a wide blast radius, but Bastion can only remain in this mode for a limited time.`,
+            imageUrl: "",
+            videoUrl: ""
+          }
+        ],
         story: `Once a frontline combatant in the devastating Omnic Crisis, this curious Bastion unit now explores the world, fascinated by nature but wary of a fearful humanity. Originally created for peacekeeping purposes, Bastion robot units possessed the unique ability to rapidly reconfigure themselves into an assault-cannon mode. But during the Omnic Crisis, they were turned against their human makers, forming the bulk of the omnics' rebel army. Following the resolution of the crisis, nearly all of them were destroyed or disassembled. To this day, Bastion units still symbolize the horrors of the conflict. One unique Bastion unit, severely damaged in the final battles of the war, was left forgotten for over a decade. It lay dormant, exposed to the elements and rusting while nature slowly reclaimed it. Overgrown with vines and roots and nested upon by small animals, the robot sat inert, seemingly unaware of the passing of time. That was until one fateful day, when it unexpectedly reactivated. With its combat programming all but lost, it instead displayed an intense curiosity about the natural world and its inhabitants. This inquisitive Bastion unit set out to explore its surroundings and discover its purpose on a war-ravaged planet. Though "Bastion" appears to be gentle—even harmless, at times—its core combat programming takes over when the unit senses danger, utilizing its entire arsenal to eliminate anything it perceives as a threat. This has led to instances of conflict with the few humans it has encountered, and has driven it to avoid populated areas in favor of the wild, uncharted regions of the world.`
       },
       {
@@ -225,7 +326,8 @@ const SECTION_DATA = {
       {
         id: 8,
         name: "Genji",
-        imageUrl: "../../assets/hero-portraits/genji.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/genji/full-portrait.png",
         role: "Damage",
         difficulty: 3,
         counters: [
@@ -256,7 +358,8 @@ const SECTION_DATA = {
       {
         id: 9,
         name: "Hanzo",
-        imageUrl: "../../assets/hero-portraits/hanzo.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/full-portrait.png",
         role: "Damage",
         difficulty: 3,
         counters: [
@@ -282,7 +385,8 @@ const SECTION_DATA = {
       {
         id: 10,
         name: "Junkrat",
-        imageUrl: "../../assets/hero-portraits/junkrat.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/full-portrait.png",
         role: "Damage",
         difficulty: 2,
         counters: [
@@ -303,7 +407,8 @@ const SECTION_DATA = {
       {
         id: 11,
         name: "Lúcio",
-        imageUrl: "../../assets/hero-portraits/lucio.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/lucio/full-portrait.png",
         role: "Support",
         difficulty: 2,
         counters: [],
@@ -321,7 +426,8 @@ const SECTION_DATA = {
       {
         id: 12,
         name: "McCree",
-        imageUrl: "../../assets/hero-portraits/mccree.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/full-portrait.png",
         role: "Damage",
         difficulty: 2,
         counters: [
@@ -342,7 +448,8 @@ const SECTION_DATA = {
       {
         id: 13,
         name: "Mei",
-        imageUrl: "../../assets/hero-portraits/mei.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/mei/full-portrait.png",
         role: "Damage",
         difficulty: 3,
         counters: [
@@ -364,7 +471,8 @@ const SECTION_DATA = {
       {
         id: 14,
         name: "Mercy",
-        imageUrl: "../../assets/hero-portraits/mercy.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/full-portrait.png",
         role: "Support",
         difficulty: 1,
         counters: [],
@@ -388,7 +496,8 @@ const SECTION_DATA = {
       {
         id: 15,
         name: "Moira",
-        imageUrl: "../../assets/hero-portraits/moira.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/moira/full-portrait.png",
         role: "Support",
         difficulty: 2,
         counters: ["Genji", "Orisa", "Reinhardt"],
@@ -399,7 +508,8 @@ const SECTION_DATA = {
       {
         id: 16,
         name: "Orisa",
-        imageUrl: "../../assets/hero-portraits/orisa.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/full-portrait.png",
         role: "Tank",
         difficulty: 2,
         counters: [
@@ -425,7 +535,8 @@ const SECTION_DATA = {
       {
         id: 17,
         name: "Pharah",
-        imageUrl: "../../assets/hero-portraits/pharah.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/pharah/full-portrait.png",
         role: "Damage",
         difficulty: 1,
         counters: [
@@ -457,7 +568,8 @@ const SECTION_DATA = {
       {
         id: 18,
         name: "Reaper",
-        imageUrl: "../../assets/hero-portraits/reaper.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/full-portrait.png",
         role: "Damage",
         difficulty: 1,
         counters: [
@@ -490,7 +602,8 @@ const SECTION_DATA = {
       {
         id: 19,
         name: "Reinhardt",
-        imageUrl: "../../assets/hero-portraits/reinhardt.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/full-portrait.png",
         role: "Tank",
         difficulty: 1,
         counters: ["Ashe", "Hanzo", "Soldier: 76", "Widowmaker"],
@@ -512,7 +625,8 @@ const SECTION_DATA = {
       {
         id: 20,
         name: "Roadhog",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/roadhog/full-portrait.png",
         role: "Tank",
         difficulty: 1,
         counters: [
@@ -536,7 +650,8 @@ const SECTION_DATA = {
       {
         id: 21,
         name: "Sigma",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/sigma/full-portrait.png",
         role: "Tank",
         difficulty: 3,
         counters: ["Bastion", "Hanzo", "Torbjorn", "Widowmaker"],
@@ -559,7 +674,8 @@ const SECTION_DATA = {
       {
         id: 22,
         name: "Soldier: 76",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/full-portrait.png",
         role: "Damage",
         difficulty: 1,
         counters: ["Baptiste", "Bastion", "Mercy", "Pharah", "Torbjorn"],
@@ -570,7 +686,8 @@ const SECTION_DATA = {
       {
         id: 23,
         name: "Sombra",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/full-portrait.png",
         role: "Damage",
         difficulty: 3,
         counters: [
@@ -602,7 +719,8 @@ const SECTION_DATA = {
       {
         id: 24,
         name: "Symmetra",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/symmetra/full-portrait.png",
         role: "Damage",
         difficulty: 2,
         counters: ["Orisa", "Reinhardt", "Sigma"],
@@ -613,7 +731,8 @@ const SECTION_DATA = {
       {
         id: 25,
         name: "Torbjörn",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/full-portrait.png",
         role: "Damage",
         difficulty: 2,
         counters: [
@@ -645,7 +764,8 @@ const SECTION_DATA = {
       {
         id: 26,
         name: "Tracer",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/full-portrait.png",
         role: "Damage",
         difficulty: 2,
         counters: ["Ana", "Bastion", "Hanzo", "Mercy", "Orisa", "Zenyatta"],
@@ -656,7 +776,8 @@ const SECTION_DATA = {
       {
         id: 27,
         name: "Widowmaker",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/full-portrait.png",
         role: "Damage",
         difficulty: 2,
         counters: [
@@ -691,7 +812,8 @@ const SECTION_DATA = {
       {
         id: 28,
         name: "Winston",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/winston/full-portrait.png",
         role: "Tank",
         difficulty: 2,
         counters: [
@@ -715,7 +837,8 @@ const SECTION_DATA = {
       {
         id: 29,
         name: "Wrecking Ball",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/full-portrait.png",
         role: "Tank",
         difficulty: 3,
         counters: ["Ashe", "Baptiste", "Sigma", "Widowmaker"],
@@ -735,7 +858,8 @@ const SECTION_DATA = {
       {
         id: 30,
         name: "Zarya",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/zarya/full-portrait.png",
         role: "Tank",
         difficulty: 3,
         counters: [
@@ -754,7 +878,8 @@ const SECTION_DATA = {
       {
         id: 31,
         name: "Zenyatta",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+        imageUrl:
+          "https://d1u1mce87gyfbn.cloudfront.net/hero/zenyatta/full-portrait.png",
         role: "Support",
         difficulty: 3,
         counters: ["D.Va", "Bastion", "Pharah", "Roadhog", "Zarya"],
