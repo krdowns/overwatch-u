@@ -61,7 +61,7 @@ const SECTION_DATA = {
           {
             id: 4,
             ability: "Nano Boost",
-            type: "Active",
+            type: "Ultimate",
             description: `After Ana hits one of her allies with a combat boost, they deal more damage, and take less damage from enemies’ attacks.`,
             imageUrl:
               "https://gamepedia.cursecdn.com/overwatch_gamepedia/9/97/Ability-ana4.png?version=4863fe518c6f7590d631ab168dde613f",
@@ -125,7 +125,7 @@ const SECTION_DATA = {
           {
             id: 4,
             ability: "B.O.B.",
-            type: "Active",
+            type: "Ultimate",
             description: `Ashe summons her trusted omnic sidekick, Bob, who charges forward and knocks enemies into the air, then lays down suppressing fire with his arm cannons.`,
             imageUrl:
               "https://gamepedia.cursecdn.com/overwatch_gamepedia/7/7a/Ability-ashe4.png?version=6856551928f816755e50ba6393d0be4d",
@@ -190,7 +190,7 @@ const SECTION_DATA = {
           {
             id: 4,
             ability: "Amplification Matrix",
-            type: "Active",
+            type: "Ultimate",
             description: `Baptiste creates a matrix that doubles the damage and healing effects of friendly projectiles that pass through it.`,
             imageUrl:
               "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/2/2d/Baptiste-ability4.png/200px-Baptiste-ability4.png?version=5b6255a4054889d93697494730e40aa5",
@@ -276,7 +276,7 @@ const SECTION_DATA = {
           {
             id: 5,
             ability: "Configuration: Tank",
-            type: "Active",
+            type: "Ultimate",
             description: `In Tank mode, Bastion extends wheeled treads and a powerful long-range cannon. The cannon’s explosive shells demolish targets in a wide blast radius, but Bastion can only remain in this mode for a limited time.`,
             imageUrl:
               "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/2/2e/Achievement_Charge%21.png/200px-Achievement_Charge%21.png?version=5c165d749eb2397e98f0b1f9847d5445",
@@ -359,7 +359,7 @@ const SECTION_DATA = {
           {
             id: 6,
             ability: "Rally",
-            type: "Active",
+            type: "Ultimate",
             description: `Brigitte moves faster and provides all nearby allies with armor that lasts until it’s removed by damage.`,
             imageUrl:
               "https://gamepedia.cursecdn.com/overwatch_gamepedia/0/07/Rally.png?version=5a079103264052a4d3963a2ece4af9bc",
@@ -450,7 +450,7 @@ const SECTION_DATA = {
           {
             id: 5,
             ability: "Self Destruct",
-            type: "Active",
+            type: "Ultimate",
             description: `D.Va ejects from her mech and sets its reactor to explode, dealing massive damage to nearby opponents.`,
             imageUrl:
               "https://gamepedia.cursecdn.com/overwatch_gamepedia/4/44/Ability-dva4.png?version=cccd452147ad7aa5ddd8b5339021f72b",
@@ -459,7 +459,7 @@ const SECTION_DATA = {
           {
             id: 6,
             ability: "Call Mech",
-            type: "Active",
+            type: "Ultimate",
             description: `If her armored battle suit is destroyed, D.Va can call down a fresh mech and return to the fray.`,
             imageUrl:
               "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-dva6.png?version=a7c42787f80d251dc2256e0e7a9a8a09",
@@ -535,7 +535,7 @@ const SECTION_DATA = {
           {
             id: 5,
             ability: "Meteor Strike",
-            type: "Active",
+            type: "Ultimate",
             description: `Doomfist leaps into the sky, then crashes to the ground, dealing significant damage.`,
             imageUrl:
               "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/e7/Ability_Doomfist_Meteor_Strike.png?version=ffa423d6b815937e12bb1533c410340b",
@@ -622,7 +622,7 @@ const SECTION_DATA = {
           {
             id: 5,
             ability: "Dragonblade",
-            type: "Active",
+            type: "Ultimate",
             description: `Genji brandishes his katana for a brief period of time. Until he sheathes his katana, Genji can deliver killing strikes to any targets within his reach.`,
             imageUrl:
               "https://gamepedia.cursecdn.com/overwatch_gamepedia/3/38/Ability-genji4.png?version=a099b61a01e7703188ee547453e84b63",
@@ -704,21 +704,12 @@ const SECTION_DATA = {
           {
             id: 5,
             ability: "Dragonstrike",
-            type: "Active",
+            type: "Ultimate",
             description: `Hanzo summons a Spirit Dragon which travels through the air in a line. It passes through walls in its way, devouring any enemies it encounters.`,
             imageUrl:
               "https://gamepedia.cursecdn.com/overwatch_gamepedia/4/44/Ability-hanzo4.png?version=904697da682f2fa2e66844115685a026",
             videoUrl:
               "https://gamepedia.cursecdn.com/overwatch_gamepedia/4/44/Ability-hanzo4.png?version=904697da682f2fa2e66844115685a026"
-          },
-          {
-            id: 6,
-            ability: "The Best Defense...",
-            type: "Passive",
-            description: `Doomfist generates temporary personal shields when he deals ability damage.`,
-            imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2e/The_best_defense.png?version=127198be08719e9bca66ad2397739001",
-            videoUrl: ""
           }
         ],
         story: `Mastering his skills as a bowman and an assassin, Hanzo Shimada strives to prove himself as a warrior without peer. The Shimada family was established centuries ago, a clan of assassins whose power grew over the years, enabling them to build a vast criminal empire that profited from lucrative trade in arms and illegal substances. As the eldest son of the family's head, Hanzo was bound by duty to succeed his father and rule the Shimada empire. From a young age, he was trained for that responsibility, displaying a natural aptitude for leadership and possessing an innate understanding of strategy and tactics. He also excelled in more practical areas: he was a prodigy in martial arts, swordplay, and bowmanship. Upon the death of his father, the clan elders instructed Hanzo to straighten out his wayward younger brother so that he, too, might help rule the Shimada empire. When his brother refused, Hanzo was forced to kill him. This act broke Hanzo's heart and drove him to reject his father's legacy, ultimately leading him to abandon the clan and all that he had worked so hard to attain. Now, Hanzo travels the world, perfecting his skills as a warrior, attempting to restore his honor and put the ghosts of his past to rest.`
@@ -773,7 +764,7 @@ const SECTION_DATA = {
           {
             id: 4,
             ability: "RIP-Tire",
-            type: "Active",
+            type: "Ultimate",
             description: `Junkrat revs up a motorized tire bomb and sends it rolling across the battlefield, climbing over walls and obstacles. He can remotely detonate the RIP-Tire to deal serious damage to enemies caught in the blast, or just wait for it to explode on its own.`,
             imageUrl:
               "https://gamepedia.cursecdn.com/overwatch_gamepedia/3/32/Ability-Junkrat5.png?version=a8b2f51f1f0d5c74374f666037fbbc06",
@@ -847,7 +838,7 @@ const SECTION_DATA = {
           {
             id: 5,
             ability: "Sound Barrier",
-            type: "Active",
+            type: "Ultimate",
             description: `Protective waves radiate out from Lúcio’s Sonic Amplifier, briefly providing him and nearby allies with personal shields.`,
             imageUrl:
               "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/24/Ability-Lucio4.png?version=019c8926ca3ab654667d1ab4bebd5489",
@@ -924,7 +915,7 @@ const SECTION_DATA = {
           {
             id: 5,
             ability: "Deadeye",
-            type: "Active",
+            type: "Ultimate",
             description: `Focus. Mark. Draw. McCree takes a few precious moments to aim; when he’s ready to fire, he shoots every enemy in his line of sight. The weaker his targets are, the faster he’ll line up a killshot.`,
             imageUrl:
               "https://gamepedia.cursecdn.com/overwatch_gamepedia/6/68/Ability-mccree4.png?version=4bbba6ca4e1ba972f137d08e0877215f",
@@ -993,7 +984,7 @@ const SECTION_DATA = {
           {
             id: 5,
             ability: "Blizzard",
-            type: "Active",
+            type: "Ultimate",
             description: `Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.`,
             imageUrl:
               "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-mei4.png?version=12a57172ec77eed3f921ba834998d3f0",
@@ -1027,48 +1018,66 @@ const SECTION_DATA = {
         abilities: [
           {
             id: 1,
-            ability: "Endothermic Blaster",
+            ability: "Caduceus Staff",
             type: "Active",
-            description: `Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.`,
+            description: `Mercy engages one of two beams that connect to an ally. By maintaining the beams, she can either restore that ally’s health or increase the amount of damage they deal.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/f/f4/Ability-mercy1.png/200px-Ability-mercy1.png?version=e54e45a4d3315c2d04e53701b6e92bae",
+            videoUrl: "https://youtu.be/jJ3o1B8FSqo"
           },
           {
             id: 2,
-            ability: "Icicle",
+            ability: "Caduceus Blaster",
             type: "Active",
-            description: `Mei can also use her blaster to shoot icicle-like projectiles at medium range.`,
+            description: `Mercy shoots a round from her sidearm. It's best reserved for emergency personal defense.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/4/48/Ability-mercy2.png?version=6034a2426bc725771fd5ccceeb3932c3",
             videoUrl: ""
           },
           {
             id: 3,
-            ability: "Cryo-Freeze",
+            ability: "Guardian Angel",
             type: "Active",
-            description: `Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.`,
+            description: `Mercy flies towards a targeted ally, allowing her to reach them quickly and provide assistance in crucial moments.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2b/Ability-mei2.png?version=4d3addd257e2f2c9d923e44b3b93a376",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Ability-mercy3.png?version=f52ad9d5c546cbe23bc818bc7b8853d7",
+            videoUrl: "https://youtu.be/brizxqFv5T4"
           },
           {
             id: 4,
-            ability: "Ice Wall",
+            ability: "Resurrect",
             type: "Active",
-            description: `Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks.`,
+            description: `Mercy brings a dead ally back into the fight with full health.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Ability-mei3.png?version=ffe86a29e9530245186af260d8fd3659",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/3/3e/Ability-mercy5.png?version=076ee9bc379f7088f0ad4dd5ffc7c911",
             videoUrl: ""
           },
           {
             id: 5,
-            ability: "Blizzard",
-            type: "Active",
-            description: `Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.`,
+            ability: "Valkyrie",
+            type: "Ultimate",
+            description: `Gain the ability to fly. Mercy’s abilities are enhanced.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-mei4.png?version=12a57172ec77eed3f921ba834998d3f0",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f9/Ability-mercy6.png?version=92792f6490776398dbb56cdc6da4360e",
             videoUrl: ""
+          },
+          {
+            id: 6,
+            ability: "Regeneration",
+            type: "Passive",
+            description: `Mercy automatically heals over time.`,
+            imageUrl:
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/b/b0/Ability-passive.png?version=2c09b7d7afa45948f7f0376e65ba7f9c",
+            videoUrl: ""
+          },
+          {
+            id: 7,
+            ability: "Angelic Descent",
+            type: "Passive",
+            description: `Propelled by her Valkyrie suit, Mercy slows the speed of her descent from great heights.`,
+            imageUrl:
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/e9/Ability-mercy4.png?version=765c048564cfb3cd685772cff0ef6fa1",
+            videoUrl: "https://youtu.be/E4AoSUEldFo"
           }
         ],
         story: `A guardian angel to those who come under her care, Dr. Angela Ziegler is a peerless healer, a brilliant scientist, and a staunch advocate for peace. Ziegler rose to become the head of surgery at a prominent Swiss hospital before pioneering a breakthrough in the field of applied nanobiology that radically improved the treatment of life-threatening illnesses and injuries. It was this expertise that attracted the attention of Overwatch. Because her parents had been taken by war, Ziegler was opposed to the organization's militaristic approach to keeping global peace. Ultimately, she recognized that Overwatch offered her the opportunity to save lives on a much larger scale. As Overwatch's head of medical research, Angela sought to leverage her work for healing in frontline crises. The result was the Valkyrie swift-response suit, which Ziegler herself piloted on many Overwatch missions. Despite her contributions to Overwatch, she was often at odds with her superiors and the organization's overarching aims. When Overwatch dissolved, Ziegler dedicated herself to helping those affected by war. Though she spends most of her time caring for the broken and dispossessed in crisis areas around the world, Dr. Ziegler can be counted on to don her Valkyrie suit whenever innocents are imperiled.`
@@ -1085,47 +1094,47 @@ const SECTION_DATA = {
         abilities: [
           {
             id: 1,
-            ability: "Endothermic Blaster",
+            ability: "Biotic Grasp(Primary)",
             type: "Active",
-            description: `Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.`,
+            description: `Using her left hand, Moira expends biotic energy to heal allies in front of her.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/d/d7/Ability_Moira_Biotic_Grasp.png/200px-Ability_Moira_Biotic_Grasp.png?version=1d6a51cfe19a91ee6e5de2a78fc5217a",
             videoUrl: ""
           },
           {
             id: 2,
-            ability: "Icicle",
+            ability: "Biotic Grasp(Secondary)",
             type: "Active",
-            description: `Mei can also use her blaster to shoot icicle-like projectiles at medium range.`,
+            description: `Her right hand fires a long-range beam weapon that saps enemies’ health, healing Moira and replenishing her biotic energy.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/5/5f/Ability_Moira_Biotic_Grasp_Alt_fire.png?version=fd2aac6d9666e0de8986585e67f38d40",
             videoUrl: ""
           },
           {
             id: 3,
-            ability: "Cryo-Freeze",
+            ability: "Biotic Orb",
             type: "Active",
-            description: `Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.`,
+            description: `Moira launches a rebounding biotic sphere; she can choose between a regeneration effect that heals the allies it passes through, or a decay effect that deals damage to enemies.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2b/Ability-mei2.png?version=4d3addd257e2f2c9d923e44b3b93a376",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/a/a9/Ability_Moira_Biotic_Orb.png?version=c2872b52cdc32dfaade30b14f54dcbd0",
             videoUrl: ""
           },
           {
             id: 4,
-            ability: "Ice Wall",
+            ability: "Fade",
             type: "Active",
-            description: `Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks.`,
+            description: `Moira's movement speed increases while making her invulnerable to damage.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Ability-mei3.png?version=ffe86a29e9530245186af260d8fd3659",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/4/48/Ability_Moira_Fade.png?version=9cd7b33715c2dac7050f404f9a218a35",
             videoUrl: ""
           },
           {
             id: 5,
-            ability: "Blizzard",
-            type: "Active",
-            description: `Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.`,
+            ability: "Coalescence",
+            type: "Ultimate",
+            description: `Moira channels a long-range beam that heals allies, damages enemies, and bypasses barriers.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-mei4.png?version=12a57172ec77eed3f921ba834998d3f0",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/0/05/Ability_Moira_Coalescence.png?version=4678ed1e9704a15ab1fc1eb18d59e165",
             videoUrl: ""
           }
         ],
@@ -1158,47 +1167,47 @@ const SECTION_DATA = {
         abilities: [
           {
             id: 1,
-            ability: "Endothermic Blaster",
+            ability: "Fusion Driver",
             type: "Active",
-            description: `Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.`,
+            description: `Orisa’s automatic projectile cannon delivers sustained damage, but slows her movement while she fires it.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/4/4a/Ability_Orisa_Fusion_Driver.png/200px-Ability_Orisa_Fusion_Driver.png?version=9541bd74b99b1f059fbc2aa6eae37432",
             videoUrl: ""
           },
           {
             id: 2,
-            ability: "Icicle",
+            ability: "Halt!",
             type: "Active",
-            description: `Mei can also use her blaster to shoot icicle-like projectiles at medium range.`,
+            description: `Launch a graviton charge which can be detonated with the same action. The sphere slows and pulls nearby enemies to it.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/22/Ability_Orisa_Halt%21.png?version=614c913ebcf212f86f5e5c44e4ee6fd6",
             videoUrl: ""
           },
           {
             id: 3,
-            ability: "Cryo-Freeze",
+            ability: "Fortify",
             type: "Active",
-            description: `Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.`,
+            description: `Orisa temporarily reduces damage she takes and cannot be affected by movement-impairing effects.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2b/Ability-mei2.png?version=4d3addd257e2f2c9d923e44b3b93a376",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f6/Ability_Orisa_Fortify.png?version=3d7148130d784cc2ee4e5c5257efddf6",
             videoUrl: ""
           },
           {
             id: 4,
-            ability: "Ice Wall",
+            ability: "Protective Barrier",
             type: "Active",
-            description: `Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks.`,
+            description: `Orisa throws out a stationary barrier that can protect her and her allies from enemy fire.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Ability-mei3.png?version=ffe86a29e9530245186af260d8fd3659",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/9/92/Ability_Orisa_Protective_Barrier.png?version=7446aa5b1614602c243789471631ef8d",
             videoUrl: ""
           },
           {
             id: 5,
-            ability: "Blizzard",
-            type: "Active",
-            description: `Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.`,
+            ability: "Supercharger",
+            type: "Ultimate",
+            description: `Orisa deploys a device to increase damage inflicted by allies within her line of sight.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-mei4.png?version=12a57172ec77eed3f921ba834998d3f0",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/a/a4/Ability_Orisa_Supercharger.png?version=ba9e9f1a46b5b60cd52634cc88aae9cb",
             videoUrl: ""
           }
         ],
@@ -1237,47 +1246,47 @@ const SECTION_DATA = {
         abilities: [
           {
             id: 1,
-            ability: "Endothermic Blaster",
+            ability: "Rocket Launcher",
             type: "Active",
-            description: `Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.`,
+            description: `Pharah’s primary weapon launches rockets that deal significant damage in a wide blast radius.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/7/78/Ability-parah1.png/200px-Ability-parah1.png?version=477900375b5d570f6a93a79f403ddbd8",
+            videoUrl: "https://youtu.be/4VhjPI33ZFQ"
           },
           {
             id: 2,
-            ability: "Icicle",
+            ability: "Jump Jet",
             type: "Active",
-            description: `Mei can also use her blaster to shoot icicle-like projectiles at medium range.`,
+            description: `Propelled by her suit’s thrusters, Pharah soars high into the air.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/1/14/Ability-parah2.png?version=16f5106ab202c23d8d442733535a93cf",
+            videoUrl: "https://youtu.be/wt3GtTGKjWo"
           },
           {
             id: 3,
-            ability: "Cryo-Freeze",
+            ability: "Concussive Blast",
             type: "Active",
-            description: `Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.`,
+            description: `Pharah looses a wrist rocket that knocks back any enemies it strikes.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2b/Ability-mei2.png?version=4d3addd257e2f2c9d923e44b3b93a376",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/c/ce/Ability-parah3.png?version=b691db0913c3402f190665587f25b4a3",
+            videoUrl: "https://youtu.be/Jeo6h_Z_JAU"
           },
           {
             id: 4,
-            ability: "Ice Wall",
-            type: "Active",
-            description: `Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks.`,
+            ability: "Barrage",
+            type: "Ultimate",
+            description: `Pharah directs a continuous salvo of mini-rockets to destroy groups of enemies.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Ability-mei3.png?version=ffe86a29e9530245186af260d8fd3659",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/8/8f/Ability-parah4.png?version=d193b86ef138d2133573bb97897af1a4",
+            videoUrl: "https://youtu.be/B-Rign7c6yY"
           },
           {
             id: 5,
-            ability: "Blizzard",
+            ability: "Hover Jets",
             type: "Active",
-            description: `Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.`,
+            description: `Hold to hover.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-mei4.png?version=12a57172ec77eed3f921ba834998d3f0",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/b/b0/Ability-passive.png?version=2c09b7d7afa45948f7f0376e65ba7f9c",
             videoUrl: ""
           }
         ],
@@ -1317,47 +1326,47 @@ const SECTION_DATA = {
         abilities: [
           {
             id: 1,
-            ability: "Endothermic Blaster",
+            ability: "Hellfire Shotguns",
             type: "Active",
-            description: `Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.`,
+            description: `Reaper tears enemies apart with twin shotguns.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/d/df/Ability-reaper1.png/200px-Ability-reaper1.png?version=3a07c3b1d1693233273bba00e87d41b6",
+            videoUrl: "https://youtu.be/z1RyND7eIYE"
           },
           {
             id: 2,
-            ability: "Icicle",
+            ability: "Wraith Form",
             type: "Active",
-            description: `Mei can also use her blaster to shoot icicle-like projectiles at medium range.`,
+            description: `Reaper becomes a shadow for a short period of time. While in this form, he takes no damage and is able to pass through enemies, but cannot fire his weapons or use other abilities.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/6/66/Ability-reaper2.png?version=1a33566cfa5f71da9a816097cadaaf60",
+            videoUrl: "https://youtu.be/6aqY62EHPSA"
           },
           {
             id: 3,
-            ability: "Cryo-Freeze",
+            ability: "Shadow Step",
             type: "Active",
-            description: `Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.`,
+            description: `After marking a destination, Reaper disappears and reappears at that location.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2b/Ability-mei2.png?version=4d3addd257e2f2c9d923e44b3b93a376",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/9/97/Ability-reaper3.png?version=74fcc0a5268ac38e8c1bf4967184e66c",
+            videoUrl: "https://youtu.be/tA4v77rouK4"
           },
           {
             id: 4,
-            ability: "Ice Wall",
-            type: "Active",
-            description: `Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks.`,
+            ability: "Death Blossomo",
+            type: "Ultimate",
+            description: `In a blur of motion, Reaper empties both Hellfire Shotguns at breakneck speed, dealing massive damage to all nearby enemies.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Ability-mei3.png?version=ffe86a29e9530245186af260d8fd3659",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/a/ac/Ability-reaper4.png?version=2bcb5b9807d7ad7e421b2d4a7df763de",
+            videoUrl: "https://youtu.be/g2NZsSyRA9s"
           },
           {
             id: 5,
-            ability: "Blizzard",
-            type: "Active",
-            description: `Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.`,
+            ability: "The Reaping",
+            type: "Passive",
+            description: `Reaper steals health from his enemies as he damages them.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-mei4.png?version=12a57172ec77eed3f921ba834998d3f0",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/5/57/Ability-reaper5.png?version=49095120f44314329d4788f43661589d",
             videoUrl: ""
           }
         ],
@@ -1386,47 +1395,47 @@ const SECTION_DATA = {
         abilities: [
           {
             id: 1,
-            ability: "Endothermic Blaster",
+            ability: "Rocket Hammer",
             type: "Active",
-            description: `Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.`,
+            description: `Reinhardt’s Rocket Hammer is an exemplary melee weapon, able to deal punishing damage in a wide arc with every swing.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/c/c4/Ability-reinhardt1.png/200px-Ability-reinhardt1.png?version=c6df80775dc74395a9709280fc2f88b5",
+            videoUrl: "https://youtu.be/Ua8WIr2EiL8"
           },
           {
             id: 2,
-            ability: "Icicle",
+            ability: "Barrier Field",
             type: "Active",
-            description: `Mei can also use her blaster to shoot icicle-like projectiles at medium range.`,
+            description: `Reinhardt projects a broad, forward-facing energy shield, which can absorb substantial damage before it is destroyed. Though Reinhardt can protect himself and his companions behind the shield, he cannot attack while sustaining it.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/9/97/Ability-reinhardt2.png?version=fc9a66d235569838caf5b91056f8e870",
+            videoUrl: "https://youtu.be/s6LUaSrHYCA"
           },
           {
             id: 3,
-            ability: "Cryo-Freeze",
+            ability: "Fire Strike",
             type: "Active",
-            description: `Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.`,
+            description: `By whipping his Rocket Hammer forward, Reinhardt slings a flaming projectile which pierces and damages any enemies it touches.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2b/Ability-mei2.png?version=4d3addd257e2f2c9d923e44b3b93a376",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/9/99/Ability-reinhardt4.png?version=7876798781ffcf541cbf8191ab3e588c",
+            videoUrl: "https://youtu.be/XAap0dyFKNI"
           },
           {
             id: 4,
-            ability: "Ice Wall",
-            type: "Active",
-            description: `Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks.`,
+            ability: "Earthshatter",
+            type: "Ultimate",
+            description: `Reinhardt forcefully slams his rocket hammer into the ground, knocking down and damaging all enemies in front of him.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Ability-mei3.png?version=ffe86a29e9530245186af260d8fd3659",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/22/Ability-reinhardt5.png?version=79b280bf3b0820f786fdae8c923ab4ea",
+            videoUrl: "https://youtu.be/DrnmH2-T2O4"
           },
           {
             id: 5,
-            ability: "Blizzard",
+            ability: "Steadfast",
             type: "Active",
-            description: `Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.`,
+            description: `Resistant to knock back effects.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-mei4.png?version=12a57172ec77eed3f921ba834998d3f0",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/e7/Passive-Reinhardt.png?version=e05995a0e3291b62cf93f96479449285",
             videoUrl: ""
           }
         ],
@@ -1457,48 +1466,48 @@ const SECTION_DATA = {
         abilities: [
           {
             id: 1,
-            ability: "Endothermic Blaster",
+            ability: "Scrap Gun (Short Range)",
             type: "Active",
-            description: `Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.`,
+            description: `Roadhog's Scrap Gun fires short-range blasts of shrapnel with a wide spread.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/f/f4/Ability-Roadhog1.png/200px-Ability-Roadhog1.png?version=1371b2d70c3474bdc374bf2da0610000",
+            videoUrl: "https://youtu.be/v1CLYGVvQDA"
           },
           {
             id: 2,
-            ability: "Icicle",
+            ability: "Scrap Gun (Long Range)",
             type: "Active",
-            description: `Mei can also use her blaster to shoot icicle-like projectiles at medium range.`,
+            description: `Alternatively, it can launch a shrapnel ball that detonates farther away, scattering metal fragments from the point of impact.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/f/f4/Ability-Roadhog1.png/200px-Ability-Roadhog1.png?version=1371b2d70c3474bdc374bf2da0610000",
+            videoUrl: "https://youtu.be/v1CLYGVvQDA"
           },
           {
             id: 3,
-            ability: "Cryo-Freeze",
+            ability: "Take a Breather",
             type: "Active",
-            description: `Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.`,
+            description: `Roadhog restores a chunk of his health over a brief period of time.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2b/Ability-mei2.png?version=4d3addd257e2f2c9d923e44b3b93a376",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/a/a0/Ability-Roadhog2.png?version=7eaffccfe236bc6da9e0c05788811a7e",
+            videoUrl: "https://youtu.be/XWyYgyAM7OU"
           },
           {
             id: 4,
-            ability: "Ice Wall",
+            ability: "Chain Hook",
             type: "Active",
-            description: `Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks.`,
+            description: `Roadhog hurls his chain at a target; if it catches, he yanks them into close range.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Ability-mei3.png?version=ffe86a29e9530245186af260d8fd3659",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/4/4d/Ability-Roadhog3.png?version=4f0abf824be636661872b76ecde4b430",
+            videoUrl: "https://youtu.be/owP6uHjJd-E"
           },
           {
             id: 5,
-            ability: "Blizzard",
-            type: "Active",
-            description: `Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.`,
+            ability: "Whole Hog",
+            type: "Ultimate",
+            description: `After cramming a top-loader onto his Scrap Gun, Roadhog pours in ammo. For a short time, he can crank out a stream of shrapnel that knocks back enemies.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-mei4.png?version=12a57172ec77eed3f921ba834998d3f0",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/9/95/Ability-Roadhog4.png?version=2c82c046cbaf0568f6cadc21ec0f79eb",
+            videoUrl: "https://youtu.be/LJetuxosdo4"
           }
         ],
         story: `Roadhog is a ruthless killer with a well-earned reputation for cruelty and wanton destruction. After the Omnic Crisis, government officials gifted the Australian omnium and the surrounding area to the omnics that had nearly destroyed their country, hoping to establish a long-term peace accord. This arrangement permanently displaced Mako Rutledge and a large number of the Outback's residents, a scattered collection of survivalists, solar farmers, and people who just wanted to be left alone. Furious over the loss of their homes, Mako and others turned to violent rebellion. They formed the Australian Liberation Front and struck against the omnium and its robot population to take back the lands that had been stolen. Events continued to escalate until the rebels sabotaged the omnium's fusion core, resulting in an explosion that destroyed the facility, irradiated the region, and littered the Outback with twisted metal and wreckage for kilometers around. Mako watched as his home became an apocalyptic wasteland, and he was forever changed. Adapting to his environment, he donned a mask and took to the broken highways of the Outback on his ramshackle chopper. Little by little, his humanity was forgotten. The last vestiges of Mako faded away and the ruthless killer Roadhog was born.`
@@ -1527,47 +1536,47 @@ const SECTION_DATA = {
         abilities: [
           {
             id: 1,
-            ability: "Endothermic Blaster",
+            ability: "Hyperspheres",
             type: "Active",
-            description: `Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.`,
+            description: `Sigma launches two gravitic charges, which bounce off walls and implode after a short duration, damaging enemies within a sizable radius.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/a/a4/Abilities-sigma1.png?version=968538c87fb926080057f4fc08592f3c",
             videoUrl: ""
           },
           {
             id: 2,
-            ability: "Icicle",
+            ability: "Experimental Barrier",
             type: "Active",
-            description: `Mei can also use her blaster to shoot icicle-like projectiles at medium range.`,
+            description: `Sigma propels a floating barrier to a location of his choosing. He can dismiss the barrier at any time.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/5/5d/Abilities-sigma2.png?version=e9ff879de19998505010a8a2ad7bbe05",
             videoUrl: ""
           },
           {
             id: 3,
-            ability: "Cryo-Freeze",
+            ability: "Kinetic Grasp",
             type: "Active",
-            description: `Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.`,
+            description: `Sigma freezes incoming projectiles in midair, converting them into shields.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2b/Ability-mei2.png?version=4d3addd257e2f2c9d923e44b3b93a376",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/7/7a/Abilities-sigma3.png?version=6053142b210badaae10f6a3a0649ff38",
             videoUrl: ""
           },
           {
             id: 4,
-            ability: "Ice Wall",
+            ability: "Accretion",
             type: "Active",
-            description: `Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks.`,
+            description: `Sigma gathers a mass of debris and flings it at an enemy to knock them down`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Ability-mei3.png?version=ffe86a29e9530245186af260d8fd3659",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/9/9c/Abilities-sigma4.png?version=2574489e3b6f51278c5d4a9fd7748035",
             videoUrl: ""
           },
           {
             id: 5,
-            ability: "Blizzard",
-            type: "Active",
-            description: `Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.`,
+            ability: "Gravitic Flux",
+            type: "Ultimate",
+            description: `Unleashing his full powers, Sigma takes flight, lifts enemies in a targeted area, and launches them into the sky before slamming them back down.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-mei4.png?version=12a57172ec77eed3f921ba834998d3f0",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/4/42/Abilities-sigma5.png?version=94e60b39a932d16ef5cace8b90be1be9",
             videoUrl: ""
           }
         ],
@@ -1585,48 +1594,48 @@ const SECTION_DATA = {
         abilities: [
           {
             id: 1,
-            ability: "Endothermic Blaster",
+            ability: "Heavy Pulse Rifle",
             type: "Active",
-            description: `Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.`,
+            description: `Soldier: 76’s rifle remains particularly steady while unloading fully-automatic pulse fire.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/c/cc/Icon-ability.hpr.png/200px-Icon-ability.hpr.png?version=7f7fd0ebf6f46bb6a7a1105b4020a759",
+            videoUrl: "https://youtu.be/tYiBHcpVk-E"
           },
           {
             id: 2,
-            ability: "Icicle",
+            ability: "Helix Rockets",
             type: "Active",
-            description: `Mei can also use her blaster to shoot icicle-like projectiles at medium range.`,
+            description: `Tiny rockets spiral out of Soldier: 76’s Pulse Rifle in a single burst. The rockets’ explosion damages enemies in a small radius.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f3/Icon-ability.helixrockets.png?version=856f47956cec7909a4cf95db8caacdfa",
+            videoUrl: "https://youtu.be/DJHWtNg01yw"
           },
           {
             id: 3,
-            ability: "Cryo-Freeze",
+            ability: "Sprint",
             type: "Active",
-            description: `Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.`,
+            description: `Whether he needs to evade a firefight or get back into one, Soldier: 76 can rush ahead in a burst of speed. His sprint ends if he takes an action other than charging forward.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2b/Ability-mei2.png?version=4d3addd257e2f2c9d923e44b3b93a376",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/b/bd/Icon-ability.sprint.png?version=1d17fe6eb379dc4b2d7973911bcff98f",
+            videoUrl: "https://youtu.be/C1509v3OPhY"
           },
           {
             id: 4,
-            ability: "Ice Wall",
+            ability: "Biotic Field",
             type: "Active",
-            description: `Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks.`,
+            description: `Soldier: 76 plants a biotic emitter on the ground. Its energy projection restores health to 76 and any of his squadmates within the field.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Ability-mei3.png?version=ffe86a29e9530245186af260d8fd3659",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/5/50/Icon-ability.bioticfield.png?version=fc7c830c60de3339210883792c823564",
+            videoUrl: "https://youtu.be/7PE1mQ3RF3E"
           },
           {
             id: 5,
-            ability: "Blizzard",
-            type: "Active",
-            description: `Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.`,
+            ability: "Tactical Visor",
+            type: "Ultimate",
+            description: `Soldier: 76’s pinpoint targeting visor “locks” his aim on the threat closest to his crosshairs. If an enemy leaves his line of sight, Soldier: 76 can quickly switch to another target.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-mei4.png?version=12a57172ec77eed3f921ba834998d3f0",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d1/Icon-ability.tacticalvisor.png?version=a6ca6c743799ab24cd74ba83f9c5f75f",
+            videoUrl: "https://youtu.be/LzxggNa3-js"
           }
         ],
         story: `Currently the target of an international manhunt, the vigilante known as Soldier: 76 wages a personal war to expose the truth behind Overwatch's collapse. Soldier: 76 revealed himself in a string of attacks that crisscrossed the globe, targeting financial institutions, shadowy corporations, and secure Overwatch facilities. Though to the outside world his motives are inscrutable, there are those who claim that he is a former Overwatch agent, determined to shed light on the conspiracy that brought down the organization. While his true identity remains a mystery, he is believed to have been trained as a member of the American "soldier enhancement program." He possesses physical capabilities exceeding those of a conventional soldier's, as well as other augmentations that make him a peerless combatant. In addition, he utilizes a cutting-edge arsenal, much of it stolen in raids on Overwatch installations. Unrelenting in his search to find those responsible for Overwatch's fall, Soldier: 76 will stop at nothing to bring them to justice.`
@@ -1664,47 +1673,56 @@ const SECTION_DATA = {
         abilities: [
           {
             id: 1,
-            ability: "Endothermic Blaster",
+            ability: "Machine Pistol",
             type: "Active",
-            description: `Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.`,
+            description: `Sombra’s fully-automatic machine pistol fires in a short-range spread.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/a/a4/Ability_Sombra_Machine_Pistol.png/200px-Ability_Sombra_Machine_Pistol.png?version=e1423379dd602b8148408b64aaf2b0fb",
+            videoUrl: "https://youtu.be/lQZPnOCPZsg"
           },
           {
             id: 2,
-            ability: "Icicle",
+            ability: "Hack",
             type: "Active",
-            description: `Mei can also use her blaster to shoot icicle-like projectiles at medium range.`,
+            description: `Sombra hacks enemies to temporarily stop them from using their abilities, or hacks first aid kits to make them useless to her opponents.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/6/6d/Ability_Sombra_Hack.png?version=88e47105c3ab411d73205866710678ee",
+            videoUrl: "https://youtu.be/w4TMi3dQWBU"
           },
           {
             id: 3,
-            ability: "Cryo-Freeze",
+            ability: "Stealth",
             type: "Active",
-            description: `Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.`,
+            description: `Sombra becomes invisible for a short period of time, during which her speed is boosted considerably. Attacking, using offensive abilities, or taking damage disables her camouflage.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2b/Ability-mei2.png?version=4d3addd257e2f2c9d923e44b3b93a376",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/3/35/Ability_Sombra_Thermoptic_Camo.png?version=401391c4f152209088fdf5dee6f9363c",
+            videoUrl: "https://youtu.be/qVKR5PnBp7I"
           },
           {
             id: 4,
-            ability: "Ice Wall",
+            ability: "Translocator",
             type: "Active",
-            description: `Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks.`,
+            description: `Sombra tosses out a translocator beacon. She can instantly return to the beacon’s location while it is active (including when it’s in mid-flight).`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Ability-mei3.png?version=ffe86a29e9530245186af260d8fd3659",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/6/61/Ability_Sombra_Translocator.png?version=77ff058088cbf19ae269c0228e1f2c44",
+            videoUrl: "https://youtu.be/W7-dZPRUf2E"
           },
           {
             id: 5,
-            ability: "Blizzard",
-            type: "Active",
-            description: `Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.`,
+            ability: "EMP",
+            type: "Ultimate",
+            description: `Sombra discharges electromagnetic energy in a wide radius, destroying enemy barriers and shields and hacking all opponents caught in the blast.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-mei4.png?version=12a57172ec77eed3f921ba834998d3f0",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/c/c7/Ability_Sombra_EMP.png?version=034446574cc9394703034aafe0ecce10",
+            videoUrl: "https://youtu.be/lbb_uQFRIhQ"
+          },
+          {
+            id: 6,
+            ability: "Opportunist",
+            type: "Passive",
+            description: `Sombra detects critically injured enemies through walls.`,
+            imageUrl:
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/4/43/Ability_Sombra_Opportunist.png?version=06ef7825662b8cee7fce9c7436cf13b8",
             videoUrl: ""
           }
         ],
@@ -1719,7 +1737,53 @@ const SECTION_DATA = {
         difficulty: 2,
         counters: ["Orisa", "Reinhardt", "Sigma"],
         counteredBy: ["McCree", "Pharah", "Sombra", "Widowmaker", "Winston"],
-        abilities: [],
+        abilities: [
+          {
+            id: 1,
+            ability: "Photon Projector (Primary)",
+            type: "Active",
+            description: `Symmetra’s weapon emits a ranged beam. It deals continuous damage that increases the longer it is connected.`,
+            imageUrl:
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/7/7e/Ability-symmetra1.png/200px-Ability-symmetra1.png?version=b9fd478f06515a5a11f3de229ca0db56",
+            videoUrl: ""
+          },
+          {
+            id: 2,
+            ability: "Photon Projector (Secondary)",
+            type: "Active",
+            description: `The projector can also release an explosive energy ball that deals high damage on contact.`,
+            imageUrl:
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/7/7e/Ability-symmetra1.png/200px-Ability-symmetra1.png?version=b9fd478f06515a5a11f3de229ca0db56",
+            videoUrl: "https://youtu.be/w4TMi3dQWBU"
+          },
+          {
+            id: 3,
+            ability: "Sentry Turret",
+            type: "Active",
+            description: `Symmetra launches a small turret that automatically fires speed-reducing blasts at the nearest enemy within range. Up to three turrets can be built on the battlefield at once.`,
+            imageUrl:
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f4/Ability-symmetra2.png?version=20e03dbf2167e5764f9d50ef0fb1bc5b",
+            videoUrl: ""
+          },
+          {
+            id: 4,
+            ability: "Teleporter",
+            type: "Active",
+            description: `Symmetra places a temporary teleporter exit pad at a distance and connects it to a teleporter entry pad at her current location. Allies (and some of their abilities, such as Junkrat’s RIP-Tire) can travel from the entry pad to the exit pad instantly.`,
+            imageUrl:
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/e0/Ability-symmetra4.png?version=42b2f96a7b705fec479fb9a879124dbc",
+            videoUrl: ""
+          },
+          {
+            id: 5,
+            ability: "Photon Barrier",
+            type: "Ultimate",
+            description: `Symmetra deploys a massive energy barrier which prevents ranged attacks and is big enough to cut through the entire map.`,
+            imageUrl:
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d7/Photon_Barrier.png?version=f13c1364e617e4e853bf015082bedd69",
+            videoUrl: ""
+          }
+        ],
         story: `Symmetra literally bends reality. By manipulating hard-light constructs, she crafts the world as she wishes it to be, in hopes of engineering a perfect society. Following the Omnic Crisis, the Vishkar Corporation of southern India began the laborious process of creating new, self-sustaining cities to house the nation's displaced population. One such city, Utopaea, was created using radical hard-light technology that enabled its architechs to shape the city's streets, utilities, and living spaces in the blink of an eye. After she was identified as one of the few capable of becoming a light-bending architech, young Satya Vaswani was plucked from extreme poverty and placed in the care of Vishkar's architech academy, never to return home. Isolated and lonely in her new life, Satya immersed herself in her education and training. She quickly grasped the applications of the technology and was one of the top students in her class. Satya approached hard-light manipulation differently than her peers, with their more procedural, mechanical constructions, instead weaving her constructs in the motions of the traditional dance of her homeland. Though she was one of Utopaea's top architechs, the Vishkar Corporation saw far greater potential in Satya's abilities. Giving her the moniker "Symmetra," Vishkar sent her on clandestine missions around the world to uphold its corporate interests and expand its influence into other countries. Symmetra believes her actions serve the greater good in society. But there are times when she wonders whether the control and order she desires are truly best for humanity.`
       },
       {
@@ -1755,47 +1819,56 @@ const SECTION_DATA = {
         abilities: [
           {
             id: 1,
-            ability: "Endothermic Blaster",
+            ability: "Rivet Gun (Primary Fire)",
             type: "Active",
-            description: `Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.`,
+            description: `Torbjörn fires rivets at long range.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/b/b2/Ability-torbjorn1.png/200px-Ability-torbjorn1.png?version=416a016cdc58c4c400cf860e3f08f111",
+            videoUrl: "https://youtu.be/KBkfGVjdt3c"
           },
           {
             id: 2,
-            ability: "Icicle",
+            ability: "Rivet Gun (Secondary Fire)",
             type: "Active",
-            description: `Mei can also use her blaster to shoot icicle-like projectiles at medium range.`,
+            description: `Torbjörn ejects molten metal from his gun in a short, close-range burst.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/b/b2/Ability-torbjorn1.png/200px-Ability-torbjorn1.png?version=416a016cdc58c4c400cf860e3f08f111",
+            videoUrl: "https://youtu.be/KBkfGVjdt3c"
           },
           {
             id: 3,
-            ability: "Cryo-Freeze",
+            ability: "Forge Hammer",
             type: "Active",
-            description: `Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.`,
+            description: `This multipurpose hammer repairs turrets and, in a pinch, can also be used as a weapon.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2b/Ability-mei2.png?version=4d3addd257e2f2c9d923e44b3b93a376",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/3/37/Ability-torbjorn2.png/200px-Ability-torbjorn2.png?version=a5fa67fe2d19b09808a921f48bf79412",
+            videoUrl: "https://youtu.be/yXl485iR8_E"
           },
           {
             id: 4,
-            ability: "Ice Wall",
+            ability: "Deploy Turret",
             type: "Active",
-            description: `Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks.`,
+            description: `Torbjörn deploys a self-building turret which automatically tracks and attacks enemies.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Ability-mei3.png?version=ffe86a29e9530245186af260d8fd3659",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/a/a7/Ability-torbjorn3.png?version=fdefda1d8f0094b4ad1d6aaea27653fa",
             videoUrl: ""
           },
           {
             id: 5,
-            ability: "Blizzard",
+            ability: "Overload",
             type: "Active",
-            description: `Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.`,
+            description: `Torbjörn gains additional armor as well as improved attack, movement, and reload speed for a brief period.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-mei4.png?version=12a57172ec77eed3f921ba834998d3f0",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/a/af/Ability-torbjorn4.png?version=18eed42b062dee56f7d428cc26dd7585",
+            videoUrl: ""
+          },
+          {
+            id: 6,
+            ability: "Molten Core",
+            type: "Ultimate",
+            description: `Torbjörn creates pools of molten slag that deal massive, sustained damage (plus bonus damage to armor), and can prevent enemies from moving through key locations.`,
+            imageUrl:
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ef/Ability-torbjorn5.png?version=77f0f32f768a6d7d75ec31ac139ca377",
             videoUrl: ""
           }
         ],
@@ -1813,48 +1886,39 @@ const SECTION_DATA = {
         abilities: [
           {
             id: 1,
-            ability: "Endothermic Blaster",
+            ability: "Pulse Pistols",
             type: "Active",
-            description: `Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.`,
+            description: `Tracer rapid-fires both of her pistols.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/f/ff/Ability-tracer1.png/200px-Ability-tracer1.png?version=91441edba6537e685f5495546ae96353",
+            videoUrl: "https://youtu.be/DOXR7rOvGOQ"
           },
           {
             id: 2,
-            ability: "Icicle",
+            ability: "Blink",
             type: "Active",
-            description: `Mei can also use her blaster to shoot icicle-like projectiles at medium range.`,
+            description: `Tracer zips horizontally through space in the direction she’s moving, and reappears several yards away. She stores up to three charges of the blink ability and generates more every few seconds.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/5/54/Ability-tracer2.png?version=f2ebaaaf6d632fa0a18a0e565ba85305",
+            videoUrl: "https://youtu.be/50d5qnAPrR8"
           },
           {
             id: 3,
-            ability: "Cryo-Freeze",
+            ability: "Recall",
             type: "Active",
-            description: `Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.`,
+            description: `Tracer bounds backward in time, returning her health, ammo and position on the map to precisely where they were a few seconds before.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2b/Ability-mei2.png?version=4d3addd257e2f2c9d923e44b3b93a376",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/6/63/Ability-tracer3.png?version=7a73ab501ed31c36f0a359267774535d",
+            videoUrl: "https://youtu.be/eFdC4mW0SMI"
           },
           {
             id: 4,
-            ability: "Ice Wall",
-            type: "Active",
-            description: `Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks.`,
+            ability: "Pulse Bomb",
+            type: "Ultimate",
+            description: `Tracer lobs a large bomb that adheres to any surface or unfortunate opponent it lands on. After a brief delay, the bomb explodes, dealing high damage to all enemies within its blast radius.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Ability-mei3.png?version=ffe86a29e9530245186af260d8fd3659",
-            videoUrl: ""
-          },
-          {
-            id: 5,
-            ability: "Blizzard",
-            type: "Active",
-            description: `Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.`,
-            imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-mei4.png?version=12a57172ec77eed3f921ba834998d3f0",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/a/af/Ability-tracer4.png?version=769b3c3822fbb86c0ce1e7f29abc8cc2",
+            videoUrl: "https://youtu.be/Sf_ku0-PPoc"
           }
         ],
         story: `The former Overwatch agent known as Tracer is a time-jumping adventurer and an irrepressible force for good. Lena Oxton (call sign: "Tracer") was the youngest person ever inducted into Overwatch's experimental flight program. Known for her fearless piloting skills, she was handpicked to test the prototype of a teleporting fighter, the Slipstream. But during its first flight, the aircraft's teleportation matrix malfunctioned, and it disappeared. Lena was presumed dead. She reappeared months later, but her ordeal had greatly changed her: her molecules had been desynchronized from the flow of time. Suffering from "chronal disassociation," she was a living ghost, disappearing for hours and days at a time. Even for the brief moments she was present, she was unable to maintain physical form. Overwatch's doctors and scientists were stumped, and Tracer's case seemed hopeless until a scientist named Winston designed the chronal accelerator, a device capable of keeping Tracer anchored in the present. In addition, it gave Tracer the ability to control her own time, allowing her to speed it up and slow it down at will. With her newfound skills, she became one of Overwatch's most effective agents. Since Overwatch's dissolution, Tracer has continued to right wrongs and fight the good fight wherever the opportunity presents itself.`
@@ -1895,48 +1959,48 @@ const SECTION_DATA = {
         abilities: [
           {
             id: 1,
-            ability: "Endothermic Blaster",
+            ability: "Widow's Kiss (Scoped)",
             type: "Active",
-            description: `Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.`,
+            description: `Widowmaker’s versatile sniper rifle is ideal for scope-aimed shots at distant targets.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/b/bf/Ability-widowmaker1.png/200px-Ability-widowmaker1.png?version=f2f0f3afd75eb70f8a6e845a4c8371ca",
+            videoUrl: "https://youtu.be/Ojo3o1WUBuk"
           },
           {
             id: 2,
-            ability: "Icicle",
+            ability: "Widow's Kiss (Automatic)",
             type: "Active",
-            description: `Mei can also use her blaster to shoot icicle-like projectiles at medium range.`,
+            description: `Should targets close to medium range, the rifle can also be fired in fully-automatic mode.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/b/bf/Ability-widowmaker1.png/200px-Ability-widowmaker1.png?version=f2f0f3afd75eb70f8a6e845a4c8371ca",
+            videoUrl: "https://youtu.be/Ojo3o1WUBuk"
           },
           {
             id: 3,
-            ability: "Cryo-Freeze",
+            ability: "Grappling Hook",
             type: "Active",
-            description: `Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.`,
+            description: `Widowmaker launches a grappling hook towards the location she’s aiming at – when the hook connects with a scalable surface, she’s quickly drawn towards it, allowing her to expand her view of the battlefield and evade or flank targets.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2b/Ability-mei2.png?version=4d3addd257e2f2c9d923e44b3b93a376",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/5/5b/Ability-widowmaker2.png?version=5e5e9462f2725c7053aaafa48e414a04",
+            videoUrl: "https://youtu.be/9jhlW9qDCgM"
           },
           {
             id: 4,
-            ability: "Ice Wall",
+            ability: "Venom Mine",
             type: "Active",
-            description: `Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks.`,
+            description: `Widowmaker adheres a swiftly-arming venom mine to nearly any surface. When a target wanders within range of the mine’s motion trigger, it explodes, delivering poison gas to any enemies in the vicinity.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Ability-mei3.png?version=ffe86a29e9530245186af260d8fd3659",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/0/08/Ability-widowmaker3.png?version=9e58a3a36e46b251db2b11960198349e",
+            videoUrl: "https://youtu.be/iKTYhDbgNbY"
           },
           {
             id: 5,
-            ability: "Blizzard",
-            type: "Active",
-            description: `Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.`,
+            ability: "Infra-Sight",
+            type: "Ultimate",
+            description: `Widowmaker’s recon visor allows her to see the heat signatures of her targets through walls and objects for a moderate amount of time. This enhanced vision is shared with her allies.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-mei4.png?version=12a57172ec77eed3f921ba834998d3f0",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/9/94/Ability-widowmaker4.png?version=f618c87c8ee30e71593931abc4ae931b",
+            videoUrl: "https://youtu.be/HNwtVvOXHj8"
           }
         ],
         story: `Widowmaker is the perfect assassin: a patient, ruthlessly efficient killer who shows neither emotion nor remorse. It is believed that in her former life, Widowmaker was married to Gérard Lacroix, an Overwatch agent spearheading operations against the Talon terrorist organization. After several unsuccessful attempts to eliminate Gérard, Talon decided to change its focus to his wife, Amélie. Talon operatives kidnapped her and subjected her to an intense program of neural reconditioning. They broke her will, suppressed her personality, and reprogrammed her as a sleeper agent. She was eventually found by Overwatch agents, apparently none the worse for wear, and returned to her normal life. Two weeks later she killed Gérard in his sleep. Her mission complete, Amélie returned to Talon, and they completed the process of turning her into a living weapon. She was given extensive training in the covert arts, and then her physiology was altered, drastically slowing her heart, which turned her skin cold and blue and numbed her ability to experience human emotion. Amélie was gone. Now, Widowmaker is Talon's most effective assassin, feeling little save the satisfaction of a job well done.`
@@ -1966,48 +2030,39 @@ const SECTION_DATA = {
         abilities: [
           {
             id: 1,
-            ability: "Endothermic Blaster",
+            ability: "Tesla Cannon",
             type: "Active",
-            description: `Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.`,
+            description: `Winston’s weapon fires a short-range electric barrage for as long as he holds down the trigger.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/1/17/Ability-winston1.png/200px-Ability-winston1.png?version=cd698dbcb3e770418a4a690282b4096a",
+            videoUrl: "https://youtu.be/Alu4z5t3IEI"
           },
           {
             id: 2,
-            ability: "Icicle",
+            ability: "Jump Pack",
             type: "Active",
-            description: `Mei can also use her blaster to shoot icicle-like projectiles at medium range.`,
+            description: `Assisted by his energy pack, Winston lunges through the air, dealing significant damage and staggering nearby enemies when he lands.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/6/64/Ability-winston2.png?version=fe80934286c36defe434d9f06036c80d",
+            videoUrl: "https://youtu.be/E6iqCIE2STc"
           },
           {
             id: 3,
-            ability: "Cryo-Freeze",
+            ability: "Barrier Projector",
             type: "Active",
-            description: `Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.`,
+            description: `Winston’s barrier projector extends a bubble-shaped field that absorbs damage until it's destroyed. Allies protected by the barrier can return fire from within it.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2b/Ability-mei2.png?version=4d3addd257e2f2c9d923e44b3b93a376",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/1/13/Ability-winston3.png?version=f5a6800f8d99ed5c7acbafc2239b74f2",
+            videoUrl: "https://youtu.be/uUAOPsocCis"
           },
           {
             id: 4,
-            ability: "Ice Wall",
-            type: "Active",
-            description: `Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks.`,
+            ability: "Primal Rage",
+            type: "Ultimate",
+            description: `Winston embraces his animal nature, significantly boosting his health and making him very difficult to kill, strengthening his melee attack, and allowing him to use his Jump Pack ability more frequently. While raging, Winston can only make melee and Jump Pack attacks.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Ability-mei3.png?version=ffe86a29e9530245186af260d8fd3659",
-            videoUrl: ""
-          },
-          {
-            id: 5,
-            ability: "Blizzard",
-            type: "Active",
-            description: `Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.`,
-            imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-mei4.png?version=12a57172ec77eed3f921ba834998d3f0",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/1/10/Ability-winston4.png?version=2d2e5ff2cc5554387ecc208b7e137880",
+            videoUrl: "https://youtu.be/g5maSCxyH2Q"
           }
         ],
         story: `A super-intelligent, genetically engineered gorilla, Winston is a brilliant scientist and a champion for humanity's potential. The Horizon Lunar Colony was established as a first step for humanity's renewed exploration of space. Among its residents was a group of genetically enhanced gorillas that were intended to test the effects of prolonged habitation in space. One gorilla displayed such rapid brain development from the gene therapy that he was taken under the wing of Dr. Harold Winston, who taught him science and inspired him with tales of human ingenuity. The young gorilla passed his days assisting with the scientists' experiments, watching the distant blue world outside his habitat window, dreaming of the endless possibilities that awaited him there. But his life was thrown into chaos when the other gorillas led an uprising, killed the mission scientists, and claimed the colony for their own. Taking on the name of his beloved human caretaker, Winston built a makeshift rocket and escaped to Earth. There he found a new home with Overwatch, an organization that represented everything he had come to admire about humanity. Winston was finally able to live up to the heroic ideal that had been instilled in him. Now with the fall of Overwatch, Winston has gone into seclusion, once again cut off from the world he believes in, but longing for the days of heroism to return.`
@@ -2033,47 +2088,56 @@ const SECTION_DATA = {
         abilities: [
           {
             id: 1,
-            ability: "Endothermic Blaster",
+            ability: "Quad Cannons",
             type: "Active",
-            description: `Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.`,
+            description: `Wrecking Ball’s automatic assault cannons tear apart threats at medium range.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/9/92/Quad_cannons.png/200px-Quad_cannons.png?version=3ab33001f309abe0c43e3e659908907d",
             videoUrl: ""
           },
           {
             id: 2,
-            ability: "Icicle",
+            ability: "Grappling Claw",
             type: "Active",
-            description: `Mei can also use her blaster to shoot icicle-like projectiles at medium range.`,
+            description: `Wrecking Ball launches a grappling claw, enabling him to anchor to an area and swing from it. If he strikes an enemy with a powered-up swing, they’re damaged and knocked back.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/fe/Grappling_claw.png?version=580253468bbf0921934700d0ff4afc7b",
             videoUrl: ""
           },
           {
             id: 3,
-            ability: "Cryo-Freeze",
+            ability: "Roll",
             type: "Active",
-            description: `Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.`,
+            description: `Wrecking Ball transforms into a ball, increasing his maximum movement speed.`,
             imageUrl:
               "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2b/Ability-mei2.png?version=4d3addd257e2f2c9d923e44b3b93a376",
             videoUrl: ""
           },
           {
             id: 4,
-            ability: "Ice Wall",
+            ability: "Adaptive Shield",
             type: "Active",
-            description: `Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks.`,
+            description: `Wrecking Ball’s temporary personal shields absorb damage, providing stronger defenses if more opponents are nearby.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Ability-mei3.png?version=ffe86a29e9530245186af260d8fd3659",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/9/94/Adaptive_shield.png?version=9072e837b9664d8cc59e4ed89b062542",
             videoUrl: ""
           },
           {
             id: 5,
-            ability: "Blizzard",
+            ability: "Piledriver",
             type: "Active",
-            description: `Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.`,
+            description: `Wrecking Ball slams onto the ground below, damaging enemies and launching them upward.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-mei4.png?version=12a57172ec77eed3f921ba834998d3f0",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/0/0b/Piledriver.png?version=6aeae2ad7ac6774cd20be2dfc375f21f",
+            videoUrl: ""
+          },
+          {
+            id: 6,
+            ability: "Minefield",
+            type: "Ultimate",
+            description: `Wrecking Ball deploys a field of long-lasting proximity mines which explode on contact with enemies.`,
+            imageUrl:
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/3/32/Minefield.png?version=e934b16afb03bca76f12e7abcb9846b4",
             videoUrl: ""
           }
         ],
@@ -2099,47 +2163,56 @@ const SECTION_DATA = {
         abilities: [
           {
             id: 1,
-            ability: "Endothermic Blaster",
+            ability: "Particle Cannon (Primary)",
             type: "Active",
-            description: `Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.`,
+            description: `Zarya’s mighty Particle Cannon unleashes a short-range beam of destructive energy.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/4/48/Ability-zarya1.png/200px-Ability-zarya1.png?version=c9d166ce994e6ea88064558971b378c9",
+            videoUrl: "https://youtu.be/owR560Bwbd4"
           },
           {
             id: 2,
-            ability: "Icicle",
+            ability: "Particle Cannon (Secondary)",
             type: "Active",
-            description: `Mei can also use her blaster to shoot icicle-like projectiles at medium range.`,
+            description: `Alternatively, Zarya can lob an explosive charge to strike multiple opponents.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/4/48/Ability-zarya1.png/200px-Ability-zarya1.png?version=c9d166ce994e6ea88064558971b378c9",
+            videoUrl: "https://youtu.be/owR560Bwbd4"
           },
           {
             id: 3,
-            ability: "Cryo-Freeze",
+            ability: "Particle Barrier",
             type: "Active",
-            description: `Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.`,
+            description: `The Particle Cannon can emit a personal barrier that shields Zarya against incoming attacks, redirecting their energy to enhance her weapon’s damage and the width of its beam.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2b/Ability-mei2.png?version=4d3addd257e2f2c9d923e44b3b93a376",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/7/71/Ability-zarya2.png?version=538b4d60182130ebb7f3f3171fed4ce6",
+            videoUrl: "https://youtu.be/Cnry70ViVw4"
           },
           {
             id: 4,
-            ability: "Ice Wall",
+            ability: "Projected Barrier",
             type: "Active",
-            description: `Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks.`,
+            description: `Zarya surrounds one of her teammates with an energy barrier that simultaneously absorbs fire and boosts the power of her Particle Cannon.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Ability-mei3.png?version=ffe86a29e9530245186af260d8fd3659",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/9/9e/Ability-zarya3.png?version=7317bb4f7e025ecf7fcae28eb8385c79",
+            videoUrl: "https://youtu.be/XrHtlpai0cI"
           },
           {
             id: 5,
-            ability: "Blizzard",
-            type: "Active",
-            description: `Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.`,
+            ability: "Graviton Surge",
+            type: "Ultimate",
+            description: `Zarya launches a gravity bomb that draws in enemy combatants and deals damage while they’re trapped.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-mei4.png?version=12a57172ec77eed3f921ba834998d3f0",
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/5/5d/Ability-zarya4.png?version=8d6905f7a41e16cb1c34825871297008",
+            videoUrl: "https://youtu.be/e4EXaCcRbQk"
+          },
+          {
+            id: 6,
+            ability: "Energy",
+            type: "Passive",
+            description: `Damage blocked increases Particle Cannon damage.`,
+            imageUrl:
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/6/68/Passive-Zarya.png?version=7853bf980d9c3afe6bd1ea32ec004f1e",
             videoUrl: ""
           }
         ],
@@ -2167,48 +2240,48 @@ const SECTION_DATA = {
         abilities: [
           {
             id: 1,
-            ability: "Endothermic Blaster",
+            ability: "Orb of Destruction (Primary Fire)",
             type: "Active",
-            description: `Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place.`,
+            description: `Zenyatta projects his destructive energy orbs individually.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d1/Ability-zenyatta1.png?version=7b01b160f1e2eea0b5b280582ceb4314",
+            videoUrl: "https://youtu.be/yiAaKKwuzPU"
           },
           {
             id: 2,
-            ability: "Icicle",
+            ability: "Orb of Destruction (Secondary Fire)",
             type: "Active",
-            description: `Mei can also use her blaster to shoot icicle-like projectiles at medium range.`,
+            description: `Zenyatta projects his destructive energy orbs in a rapid-fire volley after a few seconds spent gathering power.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d8/Ability-mei1.png?version=00269b8c21d0d8735e73c5be4fcb0ad4",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/d1/Ability-zenyatta1.png?version=7b01b160f1e2eea0b5b280582ceb4314",
+            videoUrl: "https://youtu.be/yiAaKKwuzPU"
           },
           {
             id: 3,
-            ability: "Cryo-Freeze",
+            ability: "Orb of Harmony",
             type: "Active",
-            description: `Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.`,
+            description: `Zenyatta casts an orb over the shoulder of a targeted ally. So long as Zenyatta maintains line of sight, the orb slowly restores health to his ally. Only one ally can receive the orb's benefit at a time.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2b/Ability-mei2.png?version=4d3addd257e2f2c9d923e44b3b93a376",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/0/0c/Ability-zenyatta2.png?version=2cfcd78f6d13445cb5c9b69c47bb98e2",
+            videoUrl: "https://youtu.be/81cEVFP_Nr4"
           },
           {
             id: 4,
-            ability: "Ice Wall",
+            ability: "Orb of Discord",
             type: "Active",
-            description: `Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks.`,
+            description: `Attaching the orb of discord to an opponent amplifies the amount of damage they receive for as long as Zenyatta maintains line of sight. Only one opponent can suffer the orb's effects at a time.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Ability-mei3.png?version=ffe86a29e9530245186af260d8fd3659",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/0/04/Ability-zenyatta3.png?version=0b00d34a5f3f3f1a67e71956dbe60cc6",
+            videoUrl: "https://youtu.be/AYi1kI6ei9Q"
           },
           {
             id: 5,
-            ability: "Blizzard",
-            type: "Active",
-            description: `Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.`,
+            ability: "Transcendence",
+            type: "Ultimate",
+            description: `Zenyatta enters a state of heightened existence for a short period of time. While transcendent, Zenyatta cannot use abilities or weapons, but is immune to damage and automatically restores his health and that of nearby allies.`,
             imageUrl:
-              "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-mei4.png?version=12a57172ec77eed3f921ba834998d3f0",
-            videoUrl: ""
+              "https://gamepedia.cursecdn.com/overwatch_gamepedia/5/5e/Ability-zenyatta4.png?version=5926200c3924316294051403b3054b44",
+            videoUrl: "https://youtu.be/W87APa-4hao"
           }
         ],
         story: `Zenyatta is an omnic monk who wanders the world in search of spiritual enlightenment. It is said that those who cross his path are never the same again. Years ago, following the Omnic Crisis, a group of outcast omnic robots experienced what they described as a spiritual awakening. They abandoned their preprogrammed lives to establish a communal monastery deep in the Himalayas. After many years of meditation on the nature of existence, they came to the belief that they were more than artificial intelligences and that, like humans, they possessed the essence of a soul. Recognizing the spiritual equality they held with humans, the monks, led by the enigmatic robot known as Tekhartha Mondatta, sought to heal the wounds caused by the Omnic Crisis a generation earlier and bring humans and robots back into societal harmony. Their message was embraced by millions around the world, and they became global celebrities. But one monk, Zenyatta, disagreed with this new direction. He believed that the way to repair the problems between humans and omnics was not through dogmatic teaching but through interpersonal connection and engagement. Ultimately, Zenyatta followed his own path. He chose to leave the monastery and wander the world, helping those he meets to overcome their personal struggles and find inner peace. But, when necessary, he will fight to protect the innocent, be they omnic or human.`
