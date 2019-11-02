@@ -12,21 +12,23 @@ import {
 } from './map-collection.styles';
 
 const MapCollectionPage = ({ collection }) => {
-  const { name, items } = collection;
+  // const { name, items } = collection;
   return (
     <MapCollectionPageContainer>
-      <MapCollectionTitle>{name}</MapCollectionTitle>
+      <MapCollectionTitle>
+      {/* {name} */}Maps
+      </MapCollectionTitle>
       <MapCollectionItemsContainer>
-        {items.map(item => (
+        {/* {items.map(item => (
           <MapCollectionItem key={item.id} item={item} />
-        ))}
+        ))} */}
       </MapCollectionItemsContainer>
     </MapCollectionPageContainer>
   );
 };
 
 const mapStateToProps = (state, ownProps) => ({
-  collection: selectCollection(ownProps.match.params.collectionId)(state)
+  // collection: selectCollection(ownProps.match.params.collectionId)(state)
 });
 
 export default connect(mapStateToProps)(MapCollectionPage);

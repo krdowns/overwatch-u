@@ -14,13 +14,17 @@ import Header from "./components/header/header.component";
 
 import { selectCurrentUser } from "./redux/user/user.selectors";
 import { checkUserSession } from "./redux/user/user.actions";
+import { selectCollectionsForPreview } from "./redux/section/section.selectors";
+
+import { addCollectionAndDocuments } from "./firebase/firebase.utils";
 
 class App extends React.Component {
   unsubscribeFromAuth = null;
 
   componentDidMount() {
-    const { checkUserSession } = this.props;
+    const { checkUserSession, collectionsArray } = this.props;
     checkUserSession();
+    // addCollectionAndDocuments("collections", collectionsArray.map());
   }
 
   componentWillUnmount() {
@@ -54,6 +58,7 @@ class App extends React.Component {
 
 const mapStateToProps = createStructuredSelector({
   currentUser: selectCurrentUser
+  // collectionsArray: selectCollectionsForPreview
 });
 
 const mapDispatchToProps = dispatch => ({
