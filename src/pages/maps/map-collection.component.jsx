@@ -1,9 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import MapCollectionItem from '../../components/map-collection-item/map-collection-item.component';
+// import MapCollectionItem from '../../components/map-collection-item/map-collection-item.component';
 
-import { selectCollection } from '../../redux/section/section.selectors';
+// import { selectCollection } from '../../redux/section/section.selectors';
 
 import {
   MapCollectionPageContainer,
