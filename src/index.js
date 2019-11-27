@@ -6,9 +6,6 @@ import { PersistGate } from "redux-persist/integration/react";
 
 import { store, persistor } from "./redux/store";
 
-import "./assets/fonts/bignoodletoo";
-import "./assets/fonts/koverwatch";
-
 import "./index.css";
 import App from "./App";
 

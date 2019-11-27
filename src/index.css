@@ -1,13 +1,13 @@
 body {
   margin: 0;
-  font-family: koverwatch, bignoodletoo;
+  font-family: 'koverwatch';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 @font-face {
-  font-family: 'koverwatch', 'bignoodletoo';
-  src: local('koverwatch', url('/assets/fonts/koverwatch.ttf'))
+  font-family: 'koverwatch';
+  src: local('koverwatch', url('./assets/fonts/koverwatch.ttf'), format("ttf"))
 }
 
 code {

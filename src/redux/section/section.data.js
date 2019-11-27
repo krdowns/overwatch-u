@@ -1,4 +1,4 @@
-const SECTION_DATA = {
+const data = {
   heroes: {
     id: 1,
     title: "Heroes",
@@ -9,7 +9,7 @@ const SECTION_DATA = {
         name: "Ana",
         imageUrl:
           "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/full-portrait.png",
-        role: "Support",
+        role: ${this.roles.role[2]},
         difficulty: 3,
         counters: [
           "Baptiste",
@@ -2667,4 +2667,4 @@ const SECTION_DATA = {
   }
 };
 
-export default SECTION_DATA;
+export default { data };
