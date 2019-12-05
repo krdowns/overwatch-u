@@ -5,8 +5,6 @@ import { HeroCardContainer, HeroTextContainer, HeroImageContainer } from './hero
 import data from '../../redux/section/section.data';
 
 export default class HeroCard extends React.Component{
-  
-
   render() {
     const heroData = data.data.heroes.hero;
       for (let key in heroData) {
@@ -16,24 +14,17 @@ export default class HeroCard extends React.Component{
           let role = (heroData[key].role);
           return <div> 
               <HeroCardContainer>
-              <HeroTextContainer>
-                <h2>{name}</h2> 
-                <img src={role} alt="support" />
-              </HeroTextContainer> 
-              <HeroImageContainer>
-              <img src={image} alt="ana" />
-              </HeroImageContainer>
+                <HeroTextContainer>
+                  <h2>{name}</h2> 
+                  <img src={role} alt="support" />
+                </HeroTextContainer> 
+                <HeroImageContainer>
+                <img src={image} alt="ana" />
+                </HeroImageContainer>
               </HeroCardContainer>
             </div>;
         }
       }
-    // console.log(heroData);
-    // return(
-    //   <div>
-    //     <HeroCardContainer 
-    //     />
-    //   </div>
-    // );
   }
 }
 

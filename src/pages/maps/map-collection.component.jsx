@@ -5,6 +5,8 @@ import { connect } from 'react-redux';
 
 // import { selectCollection } from '../../redux/section/section.selectors';
 
+import MapCard from '../../components/map-card/map-card.component';
+
 import {
   MapCollectionPageContainer,
   MapCollectionTitle,
@@ -19,6 +21,7 @@ const MapCollectionPage = ({ collection }) => {
       {/* {name} */}Maps
       </MapCollectionTitle>
       <MapCollectionItemsContainer>
+        <MapCard />
         {/* {items.map(item => (
           <MapCollectionItem key={item.id} item={item} />
         ))} */}
