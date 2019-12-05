@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { HeroCardContainer, HeroTextContainer } from './hero-card.styles';
+import { HeroCardContainer, HeroTextContainer, HeroImageContainer } from './hero-card.styles';
 
 import data from '../../redux/section/section.data';
 
@@ -18,9 +18,11 @@ export default class HeroCard extends React.Component{
               <HeroCardContainer>
               <HeroTextContainer>
                 <h2>{name}</h2> 
-                <h5>{role}</h5>
+                <img src={role} alt="support" />
               </HeroTextContainer> 
-              <img src={image} alt="ana"></img>
+              <HeroImageContainer>
+              <img src={image} alt="ana" />
+              </HeroImageContainer>
               </HeroCardContainer>
             </div>;
         }

@@ -9,7 +9,7 @@ const data = {
         name: "Ana",
         imageUrl:
           "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/full-portrait.png",
-        role: ${this.roles.role[2]},
+        role: "../../assets/support-icon.png",
         difficulty: 3,
         counters: [
           "Baptiste",
@@ -2623,13 +2623,13 @@ const data = {
       {
         id: 60,
         name: "Tank",
-        imageUrl: "https://i.ibb.co/XzcwL5s/black-shearling.png",
+        imageUrl: "../../assets/tank-icon.png",
         heroes: ["D.Va", "Orisa", "Reinhardt", "Roadhog", "Sigma", "Winston"]
       },
       {
         id: 61,
         name: "Damage",
-        imageUrl: "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
+        imageUrl: "../../assets/damage-icon.png",
         heroes: [
           "Ashe",
           "Bastion",
@@ -2652,7 +2652,7 @@ const data = {
       {
         id: 62,
         name: "Support",
-        imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
+        imageUrl: "../../assets/support-icon.png",
         heroes: [
           "Ana",
           "Baptiste",

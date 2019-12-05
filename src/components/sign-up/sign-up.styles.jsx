@@ -4,6 +4,7 @@ export const SignUpContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 380px;
+  font-family: 'Arial';
 `;
 
 export const SignUpTitle = styled.h2`
