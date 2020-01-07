@@ -1,53 +1,46 @@
 import styled from 'styled-components';
 
-// export const MapCardContainer = styled.button`
-//   min-width: 95%;
-//   width: auto;
-//   height: auto;
-//   background-image: linear-gradient(0deg, #e5efff, #c4cdff);
-//   border: none;
-//   border-radius: 5px;
-//   display: flex;
-//   justify-content: center;
-// `;
-
-export const MapCardContainer = styled.image`
+export const MapCardContainer = styled.div`
   min-width: 50px;
-  width: 33vw;
-  max-height: 250px;
+  margin-left: 5%;
+  width: 100%;
+  max-height: 500px;
   height: auto;
   background-image: linear-gradient(0deg, #e5efff, #c4cdff);
   border: none;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
+  flex-direction: column;
   font-family: 'Futura';
   font-weight: light;
   font-style: italic;
-  color: #DDD;
-  font-size: 4em;
-  overflow-y: hidden;
-  // margin: 0 auto; 
+  color: #EEE;
+  overflow-y: hidden; 
+  -webkit-transition: transform .5s ease-in-out;
+
+  :hover {
+    transform: scale(1.05);
+  }
 `;
 
 export const MapTextContainer = styled.div`
   background-color: #314666;
   padding: 0px 50px;
   // border: 2px solid red;
-  font-size: 32px;
+  font-size: 24px;
+  text-align: center;
 `;
 
 export const MapImageContainer = styled.div`
   // border: 2px solid blue;
   display: flex;
   justify-content: center;
-  align-content: center;
+  // align-content: center;
+  // width; 50%;
+  // object-fit: cover;
   img {
-    padding: 12.5px 0px;
-    justify-content: center;
-    width: 40%;
-    height: 100%;
+    width: 100%;
     // border: 2px solid blue;
   }
 `;

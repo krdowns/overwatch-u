@@ -18,7 +18,7 @@ const MapCollectionPage = ({ collection }) => {
   return (
     <MapCollectionPageContainer>
       <MapCollectionTitle>
-      {/* {name} */}Maps
+      {/* {name} */}
       </MapCollectionTitle>
       <MapCollectionItemsContainer>
         <MapCard />

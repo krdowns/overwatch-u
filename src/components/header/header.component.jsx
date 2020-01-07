@@ -4,7 +4,7 @@ import { createStructuredSelector } from 'reselect';
 import { selectCurrentUser } from '../../redux/user/user.selectors';
 import { signOutStart } from '../../redux/user/user.actions';
 
-import { ReactComponent as Logo } from '../../assets/crown.svg';
+// import { ReactComponent as Logo } from '../../assets/crown.svg';
 
 import {
   HeaderContainer,
@@ -16,7 +16,8 @@ import {
 const Header = ({ currentUser, hidden, signOutStart }) => (
   <HeaderContainer>
     <LogoContainer to='/'>
-      <Logo className='logo' />
+      {/* <Logo className='logo' /> */}
+      <h1>Overwatch U</h1>
     </LogoContainer>
     <OptionsContainer>
       <OptionLink to='/heroes'>HEROES</OptionLink>

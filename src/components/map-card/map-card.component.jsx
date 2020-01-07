@@ -14,13 +14,13 @@ export default class MapCard extends React.Component{
           let gameTypes = [(mapData[key].gameType)];
           return <div> 
               <MapCardContainer>
+                <MapImageContainer>
+                  <img src={image} alt="ana" />
+                </MapImageContainer>
                 <MapTextContainer>
                   <h2>{name}</h2> 
                   <h5>{gameTypes}</h5>
                 </MapTextContainer> 
-                <MapImageContainer>
-                <img src={image} alt="ana" />
-                </MapImageContainer>
               </MapCardContainer>
             </div>;
         }

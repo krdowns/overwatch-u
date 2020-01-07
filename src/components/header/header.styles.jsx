@@ -12,8 +12,16 @@ export const HeaderContainer = styled.div`
 
 export const LogoContainer = styled(Link)`
   height: 100%;
-  width: 70px;
-  padding: 12.5px;
+  width: 25%;
+  color: #eee;
+  font-family: 'Arial';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  // border: 1px solid red;
+  font-style: italic;
+  text-decoration: none;
 `;
 
 export const OptionsContainer = styled.div`

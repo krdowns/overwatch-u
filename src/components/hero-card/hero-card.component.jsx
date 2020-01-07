@@ -9,14 +9,14 @@ export default class HeroCard extends React.Component{
     const heroData = data.data.heroes.hero;
       for (let key in heroData) {
         if (heroData.hasOwnProperty(key)) {
-          let name = (heroData[key].name);
-          let image = (heroData[key].imageUrl);
-          let role = (heroData[key].role);
+          let name = heroData[key].name;
+          let image = heroData[key].imageUrl;
+          let role = heroData[key].role;
           return <div> 
               <HeroCardContainer>
                 <HeroTextContainer>
                   <h2>{name}</h2> 
-                  <img src={role} alt="support" />
+                  <h5>{role}</h5>
                 </HeroTextContainer> 
                 <HeroImageContainer>
                 <img src={image} alt="ana" />

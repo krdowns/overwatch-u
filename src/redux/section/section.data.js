@@ -9,7 +9,7 @@ const data = {
         name: "Ana",
         imageUrl:
           "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/full-portrait.png",
-        role: "../../assets/support-icon.png",
+        role: "Support",
         difficulty: 3,
         counters: [
           "Baptiste",
